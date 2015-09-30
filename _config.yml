@@ -1,0 +1,64 @@
+# Site settings
+title: Quartz Enterprize Job Scheduler
+email: tc-oss@softwareag.com
+description: A full-featured, Java-based, In-process job scheduler.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.quartz-scheduler.org" # the base hostname & protocol for your site
+twitter_username: terracottatech
+github_username:  quartz-scheduler
+linkedin_username: terracotta
+facebook_username:  Terracotta
+
+qtz_latest_version: 2.2.1
+qtz_latest_javadoc_version: 2.2.1
+
+# Build settings
+markdown: kramdown
+
+
+gems:
+  - jekyll-asciidoc
+
+
+
+
+defaults:
+  -
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "community"
+      type: "pages"
+    values:
+      layout: "community_page"
+  -
+    scope:
+      path: "documentation"
+      type: "pages"
+    values:
+      layout: "docs_page"
+  -
+    scope:
+      path: "documentation/2.2"
+      type: "pages"
+    values:
+      layout: "docs2x_page"
+      qtz_version: "2.2.1"
+      qtz_javadoc_version: "2.2.1"

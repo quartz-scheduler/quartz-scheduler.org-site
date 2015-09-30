@@ -1,0 +1,85 @@
+
+      <h1>Getting started with Quartz</h1>
+
+      <p>Quartz let's you add scheduling to your Java application with ease.  Learning just a few concepts will get you started.</p>
+
+      <h2>Adding Quartz to Your Project</h2>
+
+      <p>Your project will need (at least) the Quartz core library, named  quartz-x.y.z.jar (where x.y.z is a version number), in its classpath.</p>
+
+      <p>Quartz has few dependencies, but always requires at least the sl4j-api jar file.  If you want to store your scheduling data in a database then you will also need the c3p0 library.  If needed, these libraries can be found in the Quartz distribution.</p>
+
+      <p>You may also want the quartz-jobs jar file on your classpath - if you want to use any of the jobs "built into" quartz.</p>
+
+      <h3><a name="jars"></a>Downloading the Jars</h3>
+
+      <p>You can <a href="/downloads">download the full distribution</a> (with examples, source, dependencies, doc, etc.).</p>
+
+      <p>Or if you are a Maven user you can add the dependencies (only the first below is required):</p>
+
+      <pre class="prettyprint highlight"><code class="language-xml" data-lang="xml">  &lt;dependency&gt;
+      &lt;groupId&gt;org.quartz-scheduler&lt;/groupId&gt;
+      &lt;artifactId&gt;quartz&lt;/artifactId&gt;
+      &lt;version&gt;{{ site.qtz_latest_version }}&lt;/version&gt;
+  &lt;/dependency&gt;
+  &lt;dependency&gt;
+      &lt;groupId&gt;org.quartz-scheduler&lt;/groupId&gt;
+      &lt;artifactId&gt;quartz-jobs&lt;/artifactId&gt;
+      &lt;version&gt;{{ site.qtz_latest_version }}&lt;/version&gt;
+  &lt;/dependency&gt;   </code></pre>
+
+      <h2>Using Quartz</h2>
+
+      <h3>Instantiate and Start a Scheduler</h3>
+
+      <p>Schedulers are created by factories.</p>
+
+      <p>Schedulers can be immediately used to schedule jobs, but they will not start executing any until the <code>.start()</code> method has been called.</p>
+
+      <pre class="prettyprint highlight"><code class="language-java" data-lang="java">
+  // Grab the Scheduler instance from the Factory
+  Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
+
+  // and start it off
+  scheduler.start();
+      </code></pre>
+
+
+      <h3>Coding with the Quartz Fluent Scheduling API</h3>
+
+      <p>The Quartz API is designed to be used as fluent domain-specific language (DSL).  This can be done most cleanly if you import the API components statically:</p>
+
+      <pre class="prettyprint highlight"><code class="language-java" data-lang="java">  import org.quartz.Scheduler;
+  import org.quartz.SchedulerException;
+  import org.quartz.impl.StdSchedulerFactory;
+  import static org.quartz.JobBuilder.*;
+  import static org.quartz.TriggerBuilder.*;
+  import static org.quartz.SimpleScheduleBuilder.*;
+</code></pre>
+
+      <p>Once you have done that, you can define Jobs - which have an <code>.execute(..)</code> method.</p>
+
+      <p>And then schedule those jobs with triggers that define at what time(s) the job should run.</p>
+
+      <pre class="prettyprint highlight"><code class="language-java" data-lang="java">
+  // define the job and tie it to our MyJob class
+  JobDetail job = newJob(MyJob.class)
+      .withIdentity("job1", "group1")
+      .build();
+
+  // Trigger the job to run now, and then repeat every 40 seconds
+  Trigger trigger = newTrigger()
+      .withIdentity("trigger1", "group1")
+      .startNow()
+      .withSchedule(simpleSchedule()
+              .withIntervalInSeconds(40)
+              .repeatForever())
+      .build();
+
+  // Tell quartz to schedule the job using our trigger
+  scheduler.scheduleJob(job, trigger);
+      </code></pre>
+
+     <h2>Ready to Learn More?</h2>
+
+     <p>Read the <a href="/documentation">user documentation</a> to learn more about Quartz concepts.</p>
