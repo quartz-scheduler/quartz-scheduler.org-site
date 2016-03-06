@@ -1,0 +1,592 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1, h2, h5, h6 {
+    color: #f78b0e;
+}
+
+h3, h4 {
+    color: #39505f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+hr {
+  height: 15px;
+}
+
+#banner {
+    color: #f78b0e;
+    background-color: #fff;
+    text-align: center;
+}
+
+#banner h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#banner button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.beaker {
+  border-bottom: 2px solid #f78b0e;
+}
+
+.submenu.active {
+  border: solid;
+  border-color: #f78b0e;
+  border-width: thin;
+}
+
+#intro {
+  background-color: #5d6e7e;
+  color: #eee;
+  padding: 15px 15px;
+  text-align: justify;
+  border-top: 2px solid #f78b0e;
+  border-bottom: 2px solid #f78b0e;
+}
+
+#intro h1, #intro h2, #intro h3 {
+  color: #fff;
+}
+
+#intro h1, #intro h2, #intro h3 {
+  color: #fff;
+}
+
+#intro hr {
+  margin-bottom: 20px;
+}
+
+#intro a {
+    color: #ffeeee;
+    text-decoration: underline;
+
+    &:visited {
+        color: #ddcccc;
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+#start {
+  padding: 0 0 24px 0;
+  background-color: #fff;
+}
+
+#start h1, #start h2 {
+  color: #f78b0e;
+}
+
+#start h3 {
+  color: #666;
+}
+
+
+#start a, #start a:visited, #start a:active {
+  color: #f78b02;
+  text-decoration: none;
+}
+
+#contentTitle {
+  background-image: url("/images/Terracotta_content-page_header_b.jpg");
+  height: 100px;
+}
+
+#contentTitle h1, #contentTitle h2 {
+  color: #ffffff;
+  padding: 30px 15px;
+  font-weight: bold;
+}
+
+
+table {
+  background: #fff;
+  width: 100%;
+  margin: 0 0 18px;
+  border: solid #ddd;
+  border-width: 0 0 1px 0;
+  border-radius: 5px;
+  box-shadow: #ccc 0px 0px 3px;
+}
+
+table tr {
+    // :border-right 1px solid #ddd
+}
+
+table thead {
+    background: #555;
+}
+
+table thead tr th {
+
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        #line-height: 12px;
+        padding: 4px 5px 5px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+}
+
+tbody tr td {
+        color: #333;
+        padding: 4px 10px;
+        border-left: 1px solid #ddd;
+        vertical-align: top;
+}
+
+tbody tr th {
+        font-size: 12px;
+        line-height: 18px;
+}
+
+ tbody tr th .even {
+      background: #f5f5f5;
+ }
+
+
+/* begin from ehcache.css */
+
+
+.admonitionblock td.icon [class^="fa icon-"] {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    cursor: default
+}
+
+.admonitionblock td.icon .icon-note:before {
+    content: "\f05a";
+    color: #19407c
+}
+
+.admonitionblock td.icon .icon-tip:before {
+    content: "\f0eb";
+    text-shadow: 1px 1px 2px rgba(155, 155, 0, .8);
+    color: #111
+}
+
+.admonitionblock td.icon .icon-warning:before {
+    content: "\f071";
+    color: #bf6900
+}
+
+.admonitionblock td.icon .icon-caution:before {
+    content: "\f06d";
+    color: #bf3400
+}
+
+.admonitionblock td.icon .icon-important:before {
+    content: "\f06a";
+    color: #bf0000
+}
+
+.conum[data-value] {
+    display: inline-block;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, .8);
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: .75em;
+    width: 1.67em;
+    height: 1.67em;
+    line-height: 1.67em;
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold
+}
+
+.conum[data-value] * {
+    color: #fff !important
+}
+
+.conum[data-value] + b {
+    display: none
+}
+
+.conum[data-value]:after {
+    content: attr(data-value)
+}
+
+pre .conum[data-value] {
+    position: relative;
+    top: -.125em
+}
+
+b.conum * {
+    color: inherit !important
+}
+
+.conum:not([data-value]):empty {
+    display: none
+}
+
+
+ol > li p, ul > li p, ul dd, ol dd, .olist .olist, .ulist .ulist, .ulist .olist, .olist .ulist {
+    margin-bottom: .625em
+}
+
+ul.unstyled, ol.unnumbered, ul.checklist, ul.none {
+    list-style-type: none
+}
+
+ul.unstyled, ol.unnumbered, ul.checklist {
+    margin-left: .625em
+}
+
+ul.checklist li > p:first-child > .fa-square-o:first-child, ul.checklist li > p:first-child > .fa-check-square-o:first-child {
+    width: 1em;
+    font-size: .85em
+}
+
+ul.checklist li > p:first-child > input[type="checkbox"]:first-child {
+    width: 1em;
+    position: relative;
+    top: 1px
+}
+
+ul.inline {
+    margin: 0 auto .625em auto;
+    margin-left: -1.375em;
+    margin-right: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden
+}
+
+ul.inline > li {
+    list-style: none;
+    float: left;
+    margin-left: 1.375em;
+    display: block
+}
+
+ul.inline > li > * {
+    display: block
+}
+
+.unstyled dl dt {
+    font-weight: 400;
+    font-style: normal
+}
+
+ol.arabic {
+    list-style-type: decimal
+}
+
+ol.decimal {
+    list-style-type: decimal-leading-zero
+}
+
+ol.loweralpha {
+    list-style-type: lower-alpha
+}
+
+ol.upperalpha {
+    list-style-type: upper-alpha
+}
+
+ol.lowerroman {
+    list-style-type: lower-roman
+}
+
+ol.upperroman {
+    list-style-type: upper-roman
+}
+
+ol.lowergreek {
+    list-style-type: lower-greek
+}
+
+.hdlist > table, .colist > table {
+    border: 0;
+    background: none
+}
+
+.hdlist > table > tbody > tr, .colist > table > tbody > tr {
+    background: none
+}
+
+td.hdlist1 {
+    padding-right: .75em;
+    font-weight: bold
+}
+
+td.hdlist1, td.hdlist2 {
+    vertical-align: top
+}
+
+.literalblock + .colist, .listingblock + .colist {
+    margin-top: -.5em
+}
+
+.colist > table tr > td:first-of-type {
+    padding: 0 .75em;
+    line-height: 1
+}
+
+.colist > table tr > td:last-of-type {
+    padding: .25em 0
+}
+
+
+.exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child {
+    margin-bottom: 0
+}
+
+.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
+    background: #eeeeef;
+    border: 0px;
+    border-radius: 4px;
+}
+
+pre[class="highlight"], pre.prettyprint {
+    background: #eeeeef;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.sidebarblock .literalblock pre, .sidebarblock .listingblock pre:not(.highlight), .sidebarblock .listingblock pre[class="highlight"], .sidebarblock .listingblock pre[class^="highlight "], .sidebarblock .listingblock pre.CodeRay, .sidebarblock .listingblock pre.prettyprint {
+    background: #eaeaeb;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    word-wrap: break-word;
+    padding: 1em;
+    font-size: .8125em
+}
+
+.literalblock pre.nowrap, .literalblock pre[class].nowrap, .listingblock pre.nowrap, .listingblock pre[class].nowrap {
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal
+}
+
+/* end from ehcache.css */
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+.sgtab  {
+
+  color: #666;
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+.copyleft {
+  float: right;
+  color: #557755;
+}
+.copyright {
+  float: right;
+  color: #555555;
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 0px;
+    background-color: #eee;
+}
+
+code {
+    padding: 0px 0px;
+}
+
+pre {
+    padding: 0px 0px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}

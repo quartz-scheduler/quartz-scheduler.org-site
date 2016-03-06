@@ -1,0 +1,24 @@
+-classpath
+'/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-jboss/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/examples/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-oracle/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-weblogic/target/classes:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-all/target/classes:/export1/cruise/.m2/repository/jboss/jboss-common/4.0.2/jboss-common-4.0.2.jar:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-oracle/target/quartz-oracle-1.8.5.jar:/export1/cruise/.m2/repository/org/apache/openejb/javaee-api/5.0-2/javaee-api-5.0-2.jar:/export1/cruise/.m2/repository/jboss/jboss-minimal/4.0.2/jboss-minimal-4.0.2.jar:/export1/cruise/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar:/export1/cruise/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/export1/cruise/.m2/repository/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar:/export1/cruise/.m2/repository/jboss/jboss-jmx/4.0.2/jboss-jmx-4.0.2.jar:/export1/cruise/.m2/repository/com/bea/core/datasource/1.6.0/datasource-1.6.0.jar:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz/target/quartz-1.8.5.jar:/export1/cruise/.m2/repository/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.jar:/export1/cruise/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/export1/cruise/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/export1/cruise/.m2/repository/jboss/jboss-system/4.0.2/jboss-system-4.0.2.jar:/export1/cruise/.m2/repository/com/oracle/ojdbc5/11.2.0/ojdbc5-11.2.0.jar:/export1/cruise/.m2/repository/javax/jms/jms/1.1/jms-1.1.jar:/export1/cruise/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/export1/cruise/.m2/repository/slide/webdavlib/2.0/webdavlib-2.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz/src/main/java:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-jboss/src/main/java:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/examples/src/main/java:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-oracle/src/main/java:/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/quartz-weblogic/src/main/java'
+-author
+-bottom
+'Copyright 2001-2011, <a href="http://www.terracotta.org">Terracotta, Inc.<a>'
+-charset
+'UTF-8'
+-d
+'/export1/cruise/hudson/workspace/quartz-1.8.5-builder/quartz-1.8.5/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Quartz Enterprise Job Scheduler 1.8.5 API'
+-link
+'http://java.sun.com/j2se/1.5.0/docs/api'
+-use
+-version
+-windowtitle
+'Quartz Parent POM 1.8.5 API'
