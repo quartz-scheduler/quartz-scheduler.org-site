@@ -1,0 +1,43 @@
+---
+title: 2.1.x Documentation
+no_title_on_main_layout: true
+layout: default
+active_menu_id: site_mnu_docs
+---
+
+
+<br/>
+
+<div class="container-fluid">
+
+  <div class="row row-offcanvas row-offcanvas-left">
+
+    <!-- sidebar -->
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+      <h3>Quartz 2.1.x Docs</h3>
+        <ul class="nav">
+          <li id="site_mnu_docs_quick_start" class="submenu"><a href="/documentation/quartz-2.1.x/quick-start.html">Quick Start</a></li>
+          <li id="site_mnu_docs_new_in" class="submenu"><a href="/documentation/quartz-2.1.x/new-in-quartz-2_1.html">What's New</a></li>
+          <li id="site_mnu_docs_tutorials" class="submenu"><a href="/documentation/quartz-2.1.x/tutorials">Tutorials</a></li>
+          <li id="site_mnu_docs_examples" class="submenu"><a href="/documentation/quartz-2.1.x/examples">Examples</a></li>
+          <li id="site_mnu_docs_cookbook" class="submenu"><a href="/documentation/quartz-2.1.x/cookbook">Cookbook</a></li>
+          <li id="site_mnu_docs_configuration" class="submenu"><a href="/documentation/quartz-2.1.x/configuration">Configuration Reference</a></li>
+        </ul>
+    </div>
+
+    <!-- main area -->
+    <div class="col-xs-12 col-sm-9">
+      <header class="post-header">
+        {% if page.no_title_on_main_layout %} {% else %}
+        <h1 class="post-title">{% if page.visible_title %}{{ page.visible_title }} {% else %}{{ page.title }}{% endif %}</h1>
+        <hr/>
+        {% endif %}
+      </header>
+      <article class="post-content">
+        {{ content  | toc_generate }}
+      </article>
+    </div>
+
+  </div>
+
+</div>

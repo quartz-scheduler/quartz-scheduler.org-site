@@ -1,0 +1,124 @@
+<project name="www.quartz-scheduler.org" default="toMarkdown">
+  <property name="target.file" value="distributed-ehcache.htm" />
+  <property name="match.all" value="[]\[\d\w\s:,.\{\}?+'#%!/=&amp;$*@~`();|\\-]" />
+  <target name="toMarkdown" description="convert html files to markdown">
+    <echo message="Working on ${target.file}" />
+
+
+	   
+    <!--  Replace HTML line breaks with simple empty lines.  -->
+    <replaceregexp file="${target.file}"
+	    match="&lt;br\s+/&gt;"
+	    replace="${line.separator}"
+	    flags="g"
+	    />
+    
+
+    <!-- Marking beginning of numbered lists to be fixed later. -->
+	    <replaceregexp file="${target.file}"
+	          match="&lt;ol&gt;"
+		  replace="${line.separator}&lt;!-- THIS WAS A NUMBERED LIST --&gt;"
+	          flags="gm"
+	        />
+
+
+<!--  Move all Head anchors to end of Head and put in Markdown format.   -->
+    <replaceregexp file="${target.file}"
+	    match="&lt;a\s+name=.(${match.all}+).&gt;&lt;/a&gt;(${match.all}+&lt;/h.&gt;)"
+	    replace="\2 {#\1}"
+	    flags="g"
+	    />
+
+	  <!-- Remove H1 tags and add the appropriate Markdown # tag. -->
+    <replaceregexp file="${target.file}"
+	    match="&lt;h1&gt;"
+            replace="# "
+            flags="g"
+	    />
+
+              <!-- Remove H2 tags and add the appropriate Markdown # tag. -->
+    <replaceregexp file="${target.file}"
+            match="&lt;h2&gt;"
+            replace="## "
+            flags="g"
+            />
+
+          <!-- Remove H3 tags and add the appropriate Markdown # tag. -->
+	      <replaceregexp file="${target.file}"
+	              match="&lt;h3&gt;"
+	              replace="### "
+	              flags="g"
+	             />
+
+	     <!-- Remove H4 tags and add the appropriate Markdown # tag. -->
+	     <replaceregexp file="${target.file}"
+	                 match="&lt;h4&gt;"
+	                replace="#### "
+	                 flags="g"
+	        />
+
+          <!-- Remove H5 tags and and make blockquote + bold (these are not used as true heads.) -->
+	      <replaceregexp file="${target.file}"
+		      match="&lt;h5 class=.blockTitle.&gt;(${match.all}+)"
+			 replace="> **\1**"
+	                  flags="g"
+	              />
+
+
+	      <!-- Change emphasis and bold to Markdown style. Some * in Quartz text that exist  
+	      in cron expressions (not in code or <pre>) may have to be manually escaped. -->
+	  <replaceregexp file="${target.file}"
+		  match="(&lt;em&gt;|&lt;i&gt;|&lt;/em&gt;|&lt;/i&gt;)"
+		  replace="*"
+		  flags="gs"
+		  /> 
+	 <replaceregexp file="${target.file}"
+		 match="(&lt;b&gt;|&lt;/b&gt;)"
+	         replace="**"
+	         flags="gs"
+	        /> 
+
+	<!-- Change all <li> to Markdown list. Using pluses because some Quartz doc files have 
+		lines that begin with "-" (which have to be escaped). -->
+	<replaceregexp file="${target.file}"
+		match="\s*&lt;li&gt;"
+		replace="${line.separator}+ "
+		flags="g"
+		/>
+
+
+	<!-- Some Quartz doc files have lines that start with "-" and this has to be escaped for Markdown. " -->
+           <replaceregexp file="${target.file}"
+		   match="^-\s*"
+		   replace=""
+		   flags="gm"
+		   />
+
+	   <!-- Fix <pre> tags so they're on single lines. -->
+	   <replaceregexp file="${target.file}"
+		   match="(&lt;/??pre&gt;)"
+		   replace="${line.separator}\1${line.separator}"
+		   flags="g"
+		   />
+
+	   <!--  Remove all unnecessary HTML tags.  -->
+	   <replaceregexp file="${target.file}"
+		   match="&lt;(/?p|/?html|/?head|/?body|/ol|/li|/h.)&gt;"
+		   replace=""
+		   flags="g"
+		   />
+	   <replaceregexp file="${target.file}"
+		   match="^&lt;title.*$"
+		   replace=""
+		   flags="m"
+		   />
+
+	   <!-- Fix any divs that have leading spaces.  -->
+	   <replaceregexp file="${target.file}"
+		   match="^\s+(&lt;/??div)"
+		   replace="\1"
+		   flags="gm"
+		   />
+
+  </target>
+</project>

@@ -56,9 +56,25 @@ defaults:
       layout: "docs_page"
   -
     scope:
-      path: "documentation/2.2"
+      path: "documentation/quartz-2.x"
       type: "pages"
     values:
       layout: "docs2x_page"
+      qtz_version: "2.0.2"
+      qtz_javadoc_version: "2.0.2"
+  -
+    scope:
+      path: "documentation/quartz-2.1.x"
+      type: "pages"
+    values:
+      layout: "docs21x_page"
+      qtz_version: "2.1.7"
+      qtz_javadoc_version: "2.1.7"
+  -
+    scope:
+      path: "documentation/quartz-2.2.x"
+      type: "pages"
+    values:
+      layout: "docs22x_page"
       qtz_version: "2.2.1"
       qtz_javadoc_version: "2.2.1"

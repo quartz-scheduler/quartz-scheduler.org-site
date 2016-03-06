@@ -57,7 +57,18 @@
   import static org.quartz.SimpleScheduleBuilder.*;
 </code></pre>
 
-      <p>Once you have done that, you can define Jobs - which have an <code>.execute(..)</code> method.</p>
+      <p>Once you have done that, you can implement Jobs - which have an <code>.execute(..)</code> method.</p>
+      <pre class="prettyprint highlight"><code class="language-java" data-lang="java">
+  public class MyJob implements org.quartz.Job {
+
+      public MyJob() {
+      }
+
+      public void execute(JobExecutionContext context) throws JobExecutionException {
+          System.err.println("Hello World!  MyJob is executing.");
+      }
+  }
+      </code></pre>
 
       <p>And then schedule those jobs with triggers that define at what time(s) the job should run.</p>
 

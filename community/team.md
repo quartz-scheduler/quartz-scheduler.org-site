@@ -11,15 +11,9 @@ Got skills with coding, documenting, supporting or even art? We'd love to have y
 Please read [How To Contribute](contribute) to get started.
 
 
-## The Core Team
-
-* James House (founder, lead)
-
-* Terracotta (Alex Snaps, Ludovic Orban, Tim Eck, Anthony Dahanne, others)
-
 ## Significant Contributors, Past and Present
 
-* Zemian Deng, Aaron Craven, Jasper Rosenberg, Henri Yandell, Weston M. Price, Bill Kratzer, Brian Topping, Brooke Hedrick, Chris Bonham, Chuck Cavaness, Fernando Ribeiro, Dafydd James, Jeffrey Wescott, Matthew Payne, David White, Mike Curwen, Mohammad Rezaei, Srinivas Venkatarangaiah, PartNET Inc.
+* James House, Alex Snaps, Ludovic Orban, Tim Eck, Anthony Dahanne, Chris Dennis, Zemian Deng, Aaron Craven, Jasper Rosenberg, Henri Yandell, Weston M. Price, Bill Kratzer, Brian Topping, Brooke Hedrick, Chris Bonham, Chuck Cavaness, Fernando Ribeiro, Dafydd James, Jeffrey Wescott, Matthew Payne, David White, Mike Curwen, Mohammad Rezaei, Srinivas Venkatarangaiah, PartNET Inc.
 
 
 ## Tools Support
