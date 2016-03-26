@@ -30,4 +30,4 @@ Have you built a great new feature for Quartz? Drop us a note on the developer's
 
 ## Becoming a Quartz Developer
 
-Becoming a core developer fo
+Becoming a core developer for Quartz is on an invite-only basis. The project leaders look for people who have submitted bug reports (with patches), helped out with writing documentation, stay active in the community forums, or make code contributions. In addition to all these, developers must demonstrate a strong desire to see the project be successful. This is typically done by staying in touch with the project leaders, following up on reported bugs, and generally offering assistance.

@@ -13,7 +13,7 @@ active_sub_menu_id: site_mnu_docs_home
 
 | |
 |:----|
-Quartz 2.2.1 [Documentation](/documentation/quartz-2.2.x/quick-start.html) , [JavaDoc](/api/2.2.1/index.html){:target="_blank"} |
+|Quartz 2.2.1 [Documentation](/documentation/quartz-2.2.x/quick-start.html) , [JavaDoc](/api/2.2.1/index.html){:target="_blank"} |
 [FAQ](/documentation/faq.html) |
 [Best Practices](/documentation/best-practices.html) |
 |--- &nbsp; |
@@ -39,5 +39,6 @@ A full [change log](https://jira.terracotta.org/jira/browse/QTZ/?selectedTab=com
 
 | |
 |:----|
-Quartz 2.1.7 [Documentation](/documentation/quartz-2.1.x/quick-start.html) , [JavaDoc](/api/2.1.7/index.html){:target="_blank"} |
-Quartz 2.0.2 [Documentation](/documentation/quartz-2.x/quick-start.html) , [JavaDoc](/api/previous_versions/2.0.2/index.html){:target="_blank"} |
+|Quartz 2.1.7 [Documentation](/documentation/quartz-2.1.x/quick-start.html) , [JavaDoc](/api/2.1.7/index.html){:target="_blank"} |
+|Quartz 2.0.2 [Documentation](/documentation/quartz-2.x/quick-start.html) , [JavaDoc](/api/previous_versions/2.0.2/index.html){:target="_blank"} |
+|Docs for older releases, such as 1.8.5, can be found within their distribution archive.|
