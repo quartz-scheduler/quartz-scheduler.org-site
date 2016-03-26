@@ -17,10 +17,10 @@ Or if you are a Maven user you can add the dependencies to your existing project
 
 #### Full Distribution
 
-<i class="fa fa-download"></i> [Quartz 2.2.1](http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.2.1-distribution.tar.gz)  .tar.gz
+<i class="fa fa-download"></i> [Quartz 2.2.2](http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.2.2-distribution.tar.gz)  .tar.gz
 
 
-For more information on this release, see the [release notes](https://jira.terracotta.org/jira/secure/ReleaseNote.jspa?version=11610&styleName=Text&projectId=10282).
+For more information on this release, see the [release notes](https://jira.terracotta.org/jira/secure/ReleaseNote.jspa?projectId=10282&version=11041).
 
 #### Quartz 2.2.x Maven Snippets
 
