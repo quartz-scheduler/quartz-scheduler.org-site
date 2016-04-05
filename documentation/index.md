@@ -13,7 +13,7 @@ active_sub_menu_id: site_mnu_docs_home
 
 | |
 |:----|
-|Quartz 2.2.1 [Documentation](/documentation/quartz-2.2.x/quick-start.html) , [JavaDoc](/api/2.2.1/index.html){:target="_blank"} |
+|Quartz 2.2.x [Documentation](/documentation/quartz-2.2.x/quick-start.html) , [JavaDoc](/api/2.2.1/index.html){:target="_blank"} |
 [FAQ](/documentation/faq.html) |
 [Best Practices](/documentation/best-practices.html) |
 |--- &nbsp; |
