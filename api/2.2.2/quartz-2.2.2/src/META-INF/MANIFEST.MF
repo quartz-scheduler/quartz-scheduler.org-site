@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+BuildInfo-Revision: 2461
+Terracotta-ProjectStatus: Supported
+BuildInfo-URL: https://svn.terracotta.org/repo/quartz/tags/quartz-2.2.
+ 2
+BuildInfo-Host: tc-c65-jenkins-slave-022.eur.ad.sag
+BuildInfo-User: jenkins-slave
+Terracotta-Description: Enterprise Job Scheduler
+BuildInfo-Timestamp: 20150729-060047
+Terracotta-Name: quartz
+License: Apache Software License, Version 2.0
+

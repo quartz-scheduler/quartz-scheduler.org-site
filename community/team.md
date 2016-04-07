@@ -8,7 +8,7 @@ active_sub_menu_id: site_mnu_community_team
 
 Got skills with coding, documenting, supporting or even art? We'd love to have you on the team!
 
-Please read [How To Contribute](contribute) to get started.
+Please read [How To Contribute](contribute.html) to get started.
 
 
 ## Significant Contributors, Past and Present
