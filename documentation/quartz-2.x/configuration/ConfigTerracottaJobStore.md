@@ -22,7 +22,7 @@ servers for HA.
 
 The clustering feature works best for scaling out long-running and/or cpu-intensive jobs (distributing the work-load
 over multiple nodes).  If you need to scale out to support thousands of short-running (e.g 1 second) jobs, consider
-partitioning the set of jobs by using multiple distinct schedulers. Using one scheduler currently forces the use of a
+partitioning the set of jobs by using multiple distinct schedulers. Using more than one scheduler currently forces the use of a
 cluster-wide lock, a pattern that degrades performance as you add more clients.
 
 More information about this JobStore and Terracotta can be found at
