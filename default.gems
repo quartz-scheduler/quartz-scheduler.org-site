@@ -1,0 +1,26 @@
+
+asciidoctor -v1.5.4
+bigdecimal -v1.2.6
+colorator -v0.1
+ffi -v1.9.10
+io-console -v0.4.3
+jekyll -v3.1.3
+jekyll-asciidoc -v1.0.1
+jekyll-sass-converter -v1.4.0
+jekyll-sitemap -v0.10.0
+jekyll-watch -v1.4.0
+json -v1.8.1
+kramdown -v1.10.0
+liquid -v3.0.6
+listen -v3.0.6
+mercenary -v0.3.6
+mini_portile2 -v2.0.0
+nokogiri -v1.6.7.2
+psych -v2.0.8
+rake -v10.4.2
+rb-fsevent -v0.9.7
+rb-inotify -v0.9.7
+rdoc -v4.2.0
+rouge -v1.10.1
+safe_yaml -v1.0.4
+sass -v3.4.22
