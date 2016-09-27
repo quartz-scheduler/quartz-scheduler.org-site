@@ -9,6 +9,17 @@
     padding: $spacing-unit 0;
 }
 
+.site-footer .container-fluid {
+    .SAG-Logo {
+        display: inline-block;
+        margin-top: .5em;
+    }
+    .footer-text {
+        display: inline-block;
+        float: right;
+    }
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
