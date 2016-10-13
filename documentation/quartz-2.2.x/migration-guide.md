@@ -345,6 +345,10 @@ alter table qrtz_scheduler_state add column sched_name varchar(120) not null DEF
 alter table qrtz_simple_triggers add column sched_name varchar(120) not null DEFAULT 'TestScheduler';
 alter table qrtz_triggers add column sched_name varchar(120) not null DEFAULT 'TestScheduler';
 -
+- add new 'sched_time' column to qrtz_fired_triggers
+-
+alter table qrtz_fired_triggers add column sched_time BIGINT(13) NOT NULL;
+-
 - drop all primary and foreign key constraints, so that we can define new ones
 -
 alter table qrtz_triggers drop constraint qrtz_triggers_job_name_fkey;
