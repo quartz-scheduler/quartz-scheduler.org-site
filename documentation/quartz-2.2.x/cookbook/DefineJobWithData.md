@@ -35,7 +35,7 @@ public class PrintPropsJob implements Job {
 
 <pre class="prettyprint highlight"><code class="language-java" data-lang="java">
 // Define job instance
-JobDetail job1 = newJob(MyJobClass.class)
+JobDetail job1 = JobBuilder.newJob(MyJobClass.class)
     .withIdentity("job1", "group1")
     .usingJobData("someProp", "someValue")
     .build();
