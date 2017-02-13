@@ -1,5 +1,5 @@
 # Site settings
-title: Quartz Enterprize Job Scheduler
+title: Quartz Enterprise Job Scheduler
 email: tc-oss@softwareag.com
 description: A full-featured, Java-based, In-process job scheduler.
 baseurl: "" # the subpath of your site, e.g. /blog/
