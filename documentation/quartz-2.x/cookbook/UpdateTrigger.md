@@ -39,7 +39,7 @@ TriggerBuilder tb = oldTrigger.getTriggerBuilder();
 // (other builder methods could be called, to change the trigger in any desired way)
 Trigger newTrigger = tb.withSchedule(simpleSchedule()
     .withIntervalInSeconds(10)
-    .withRepeatCount(10)
+    .withRepeatCount(10))
     .build();
 
 sched.rescheduleJob(oldTrigger.getKey(), newTrigger);
