@@ -110,7 +110,7 @@ or more complex, like this: <tt>0/5 14,18,3-39,52 * ? JAN,MAR,SEP MON-FRI 2002-2
 
 + <tt>**/**</tt> &#45; used to specify increments. For example, "0/15" in the seconds field means *"the
     seconds 0, 15, 30, and 45"*. And "5/15" in the seconds field means *"the seconds 5, 20, 35, and 50"*. You can
-    also specify '/' after the '**' character - in this case '**' is equivalent to having '0' before the '/'. '1/3'
+    also specify '/' after the '\*' character - in this case '\*' is equivalent to having '0' before the '/'. '1/3'
     in the day-of-month field means *"fire every 3 days starting on the first day of the month"*.
 
 
