@@ -61,7 +61,7 @@ For those contributions that do not require a CLA: _upon submission of Your Cont
 
 ### Contributions which do require a full Contributor's License Agreement (CLA)
 
-Substantial contributions require a CLA, in this case, a "[Contributor Agreement](https://confluence.terracotta.org/download/attachments/27918462/Terracotta%20Individual%20Contributor%20Agreement%20v4.docx)" document must be filled-out and sent to Terracotta (contributors@terracotta.org) -- indicating that you assign the copyright of the work to the Quartz project. This document only needs to be filled out once per contributor - not once for each contribution.
+Substantial contributions require a CLA, in this case, a "[Contributor Agreement](https://confluence.terracotta.org/download/attachments/27918462/TerracottaIndividualContributorAgreementv4.pdf)" document must be filled-out and sent to Terracotta (contributors@terracotta.org) -- indicating that you assign the copyright of the work to the Quartz project. This document only needs to be filled out once per contributor - not once for each contribution.
 
 
 ## Becoming a Quartz Developer
