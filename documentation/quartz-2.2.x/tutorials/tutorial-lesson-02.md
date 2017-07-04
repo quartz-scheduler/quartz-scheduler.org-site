@@ -55,7 +55,7 @@ a "fluent interface"). In the previous lesson you saw an example of it, which we
 
 The block of code that builds the job definition is using methods that were statically imported from the
 ***JobBuilder*** class.  Likewise, the block of code that builds the trigger is using methods imported
-from the ***TriggerBuilder*** class - as well as from the ***SimpleScheduleBulder*** class.
+from the ***TriggerBuilder*** class - as well as from the ***SimpleScheduleBuilder*** class.
 
 The static imports of the DSL can be achieved through import statements such as these:
 
