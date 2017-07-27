@@ -140,7 +140,7 @@ job's "work" will be executed twice.
 This means the job should be coded in such a way that its work is idempotent.
 
 
-## Listeners (TriggerListener, JobListener, SchedulerListener
+## Listeners (TriggerListener, JobListener, SchedulerListener)
 
 
 ### Keep Code In Listeners Concise And Efficient
