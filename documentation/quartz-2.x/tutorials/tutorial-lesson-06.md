@@ -124,7 +124,7 @@ CronTrigger instances are built using TriggerBuilder (for the trigger's main pro
 <pre class="prettyprint highlight"><code class="language-java" data-lang="java">
 import static org.quartz.TriggerBuilder.*;
 import static org.quartz.CronScheduleBuilder.*;
-import static org.quartz.DateBuilder.*:
+import static org.quartz.DateBuilder.*;
 </code></pre>
 
 
