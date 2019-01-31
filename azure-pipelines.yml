@@ -26,8 +26,7 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.binariesDirectory):/srv/jekyll/_site
-    #containerCommand: 'sh -x -c "bundle install && bash -e get-deps.sh && JEKYLL_ENV=production jekyll build && bundle exec htmlproofer --only-4xx --empty-alt-ignore --check-html --checks-to-ignore ImageCheck --file-ignore \"/apidocs/,/generated/\" --log-level debug _site"'
-    containerCommand: 'sh -x -c "bundle install && bash -e get-deps.sh && JEKYLL_ENV=production jekyll build"'
+    containerCommand: 'sh -x -c "bundle install && JEKYLL_ENV=production jekyll build"'
     detached: false
 - bash: |
     set -e
@@ -36,12 +35,12 @@ steps:
     COMMIT=$(git rev-parse HEAD)
     # Determine whether to publish staging or live site
     if [ -n "$SYSTEM_PULLREQUEST_PULLREQUESTNUMBER" ] ; then
-      gh_url="https://$U:$P@github.com/ehcache/ehcache.org-site.git"
+      gh_url="https://$U:$P@github.com/quartz-scheduler/quartz-scheduler.org-site.git"
       gh_branch=gh-pages
       gh_source="#${SYSTEM_PULLREQUEST_PULLREQUESTNUMBER}"
       echo "Publishing staging from $gh_source"
     elif [ "$BUILD_SOURCEBRANCHNAME" == 'master' ] ; then
-      gh_url="https://$U:$P@github.com/ehcache/ehcache.github.io.git"
+      gh_url="https://$U:$P@github.com:quartz-scheduler/quartz-scheduler.github.io.git"
       gh_branch=master
       gh_source=master
       echo "Publishing Live site"
