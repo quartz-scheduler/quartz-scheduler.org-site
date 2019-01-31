@@ -81,7 +81,7 @@ instances is not configured for clustering, any of the following may occur:
 
 It is recommended that your Datasource max connection size be configured to be at least the number of worker threads in the thread pool plus three.
 You may need additional connections if your application is also making frequent calls to the scheduler API.  If you are using JobStoreCMT,
-the "non managed" datasource should have a max connection size of at least four.
+the "non managed" datasource should have a maximum connection size of at least four.
 
 
 ## Daylight Savings Time
