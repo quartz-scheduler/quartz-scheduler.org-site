@@ -40,7 +40,7 @@ steps:
       gh_source="#${SYSTEM_PULLREQUEST_PULLREQUESTNUMBER}"
       echo "Publishing staging from $gh_source"
     elif [ "$BUILD_SOURCEBRANCHNAME" == 'master' ] ; then
-      gh_url="https://$U:$P@github.com:quartz-scheduler/quartz-scheduler.github.io.git"
+      gh_url="https://$U:$P@github.com/quartz-scheduler/quartz-scheduler.github.io.git"
       gh_branch=master
       gh_source=master
       echo "Publishing Live site"
