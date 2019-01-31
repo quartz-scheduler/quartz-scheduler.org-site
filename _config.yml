@@ -12,6 +12,22 @@ facebook_username:  Terracotta
 qtz_latest_version: 2.2.1
 qtz_latest_javadoc_version: 2.2.1
 
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - run_cmd_each_javadoc_version.rb
+  - run_proofer.sh
+  - azure-pipelines.yml
+  - get-deps.sh
+  - add-analytics.sh
+
+exclude_from_watch:
+  - .idea/
+  - _eh*/
+
+
 # Build settings
 markdown: kramdown
 
