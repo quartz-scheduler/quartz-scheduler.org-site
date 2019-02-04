@@ -314,8 +314,7 @@ a recurring basis.</p>
 <h3><a name="FAQ-HowdoIkeepaJobfromfiringconcurrently%3F"></a>How do I keep a
   Job from firing concurrently? <a name="FAQ-stateful"></a></h3>
 
-<p>Make the job class implement StatefulJob rather than Job. Read the JavaDOC
-  for StatefulJob for more information.</p>
+<p>Annotate your job with @DisallowConcurrentExecution and/or @PersistJobDataAfterExecution.</p>
 
 <h3><a name="FAQ-HowdoIstopaJobthatiscurrentlyexecuting%3F"></a>How do I stop a
   Job that is currently executing? <a name="FAQ-interrupt"></a></h3>
