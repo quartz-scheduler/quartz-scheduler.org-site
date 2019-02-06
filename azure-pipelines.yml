@@ -35,6 +35,9 @@ steps:
     COMMIT=$(git rev-parse HEAD)
     # Determine whether to publish staging or live site
     if [ -n "$SYSTEM_PULLREQUEST_PULLREQUESTNUMBER" ] ; then
+      echo "Not publishing staging at this time"
+      exit 0 # do not continue. we're OK.
+      
       gh_url="https://$U:$P@github.com/quartz-scheduler/quartz-scheduler.org-site.git"
       gh_branch=gh-pages
       gh_source="#${SYSTEM_PULLREQUEST_PULLREQUESTNUMBER}"
