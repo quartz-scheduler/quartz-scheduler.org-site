@@ -26,4 +26,6 @@ and `markdown` directly, so it makes the documentation updates much faster.
 * To generate and view the site "jekyll serve -w"   ( then point your browser at http://localhost:4000" )
 * To generate the site "jekyll build"  
 
+NOTE: On windows, you would need to run `bundle.bat exec jekyll serve -w` instead.
+
 ---
