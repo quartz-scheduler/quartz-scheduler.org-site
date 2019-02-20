@@ -1,3 +1,13 @@
+### Quartz Documentation Has Moved
+
+02/20/1029
+
+https://github.com/quartz-scheduler/quartz/blob/master/docs/index.adoc
+
+The main documentation of Quartz project is now part of the main code repository. This helps
+colocate changes per each release better. The GitHub where source is hosted can render `asciidoc`
+and `markdown` directly, so it makes the documentation updates much faster.
+
 ### Instructions for building/previewing
 
 * Install Jekyll if you have not - follow instructions on the Jekyll home page (after first installing Ruby)
@@ -17,9 +27,3 @@
 * To generate the site "jekyll build"  
 
 ---
-
-
-### TODOS:
-
-* "About" -> "Features" page:
-  * could still use some love, but isn't so bad anymore
