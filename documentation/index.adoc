@@ -9,10 +9,10 @@ active_sub_menu_id: site_mnu_docs_home
 
 == Current Documentation
 
-See link:documentation/current/index.adoc[Current Documentation]
+See <<current/index.adoc#,Current Documentation>>
 
 == Historical Versions
 
 * Quartz 2.1.7 link:/documentation/quartz-2.1.x/quick-start.html[Documentation], link:/api/2.1.7/index.html[JavaDoc]
-* Quartz 2.0.2 link:/documentation/quartz-2.1.x/quick-start.html[Documentation], link:/api/previous_versions/2.0.2/index.html[JavaDoc]
+* Quartz 2.2.2 link:/documentation/quartz-2.2.x/quick-start.html[Documentation], link:/api/2.2.2/quartz-2.2.2/javadoc/index.html[JavaDoc]
 * Docs for older releases, such as 1.8.5, can be found within their distribution archive.
