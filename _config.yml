@@ -22,10 +22,10 @@ exclude:
   - azure-pipelines.yml
   - get-deps.sh
   - add-analytics.sh
+  - .idea/
 
 exclude_from_watch:
   - .idea/
-  - _eh*/
 
 
 # Build settings
