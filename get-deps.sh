@@ -1,8 +1,5 @@
 #!/bin/bash -e
 
-LATEST_QUARTZ_BRANCH=master
-LATEST_QUARTZ_VERSION=2.4.0-SNAPSHOT
-
 #########################################################
 # Checks out site content dependencies needed to generate the full site
 #########################################################
@@ -11,11 +8,17 @@ LATEST_QUARTZ_VERSION=2.4.0-SNAPSHOT
 #git clone --depth=1 https://github.com/Terracotta-OSS/terracotta.org-site-events.git events
 
 # Check out a single copy of quartz to use below:
-git clone -b $LATEST_QUARTZ_BRANCH https://github.com/quartz-scheduler/quartz.git __reference
+git clone https://github.com/quartz-scheduler/quartz.git __reference
+pushd __reference
 
-# Copy a version of quartz docs to a subdir:
-mkdir -p documentation
-cp -rf __reference/docs documentation/$LATEST_QUARTZ_VERSION
+# Copy latest version of quartz docs to a subdir:
+git checkout master
+cp -rf docs documentation/2.4.0-SNAPSHOT
+
+# Copy 2.3.x version of quartz docs to a subdir:
+git checkout quartz-2.3.x
+cp -rf docs documentation/2.3.1-SNAPSHOT
 
 # clean up
+popd
 rm -rf __reference
