@@ -9,9 +9,11 @@ github_username:  quartz-scheduler
 linkedin_username: terracotta
 facebook_username:  Terracotta
 
+asciidoc_attributes: &asciidoc_attributes
+  quartz-version: 2.4.0-SNAPSHOT
+
 asciidoctor:
-  attributes:
-    quartz-version: 2.4.0-SNAPSHOT
+  attributes: *asciidoc_attributes
 
 exclude:
   - README.md
