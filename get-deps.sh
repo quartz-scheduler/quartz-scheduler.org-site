@@ -13,11 +13,11 @@ pushd __reference
 
 # Copy latest version of quartz docs to a subdir:
 git checkout master
-cp -rf docs documentation/2.4.0-SNAPSHOT
+cp -rf docs ../documentation/2.4.0-SNAPSHOT
 
 # Copy 2.3.x version of quartz docs to a subdir:
 git checkout quartz-2.3.x
-cp -rf docs documentation/2.3.1-SNAPSHOT
+cp -rf docs ../documentation/2.3.1-SNAPSHOT
 
 # clean up
 popd
