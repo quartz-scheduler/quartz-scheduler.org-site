@@ -26,6 +26,7 @@ exclude:
 
 exclude_from_watch:
   - .idea/
+  - quartz-worktree/
 
 
 # Build settings

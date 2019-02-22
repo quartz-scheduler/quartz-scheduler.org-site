@@ -6,4 +6,7 @@ permalink: /overview/
 active_sub_menu_id: site_mnu_about_about
 ---
 
-include::/documentation/current/introduction.adoc[]
+= Overview
+:quartz-version: latest-x.y.z
+
+include::/documentation/{quartz-version}/introduction.adoc[]
