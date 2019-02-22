@@ -1,14 +1,11 @@
 ---
 layout: page
 title: Blogs
-visible_title: "Quartz News and Blogs"
+visible_title: "Quartz Blogs"
 permalink: /blog/
 active_menu_id: site_mnu_blog
 ---
 
-= Blogs
+= Quartz Blog
 
-Here are some links to news and blogs related to Quartz project:
-
-* http://www.terracotta.org/blog[Terracotta Blog, role="external", window="_blank"]
-* https://zemian.github.io[Zemian Developer Blog, role="external", window="_blank"]
+See http://www.terracotta.org/blog[Terracotta Blog, role="external", window="_blank"]
