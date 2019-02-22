@@ -9,12 +9,9 @@ github_username:  quartz-scheduler
 linkedin_username: terracotta
 facebook_username:  Terracotta
 
-qtz_latest_version: 2.2.1
-qtz_latest_javadoc_version: 2.2.1
-
 asciidoctor:
   attributes:
-    - quartz-version = 2.3.0
+    quartz-version: 2.4.0-SNAPSHOT
 
 exclude:
   - README.md
