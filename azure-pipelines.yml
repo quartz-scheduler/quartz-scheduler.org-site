@@ -16,6 +16,12 @@ steps:
     ConnectionName: gh-push-tc-org
     userNameVarName: U
     passwordVarName: P
+- bash: |
+    set -x
+    ls -l
+    ls -l $BUILD_SOURCESDIRECTORY
+    ls -ld $BUILD_SOURCESDIRECTORY
+    ls -l $BUILD_BINARIESDIRECTORY
 - task: Docker@0
   displayName: 'Jekyll and all Ruby steps'
   inputs:
