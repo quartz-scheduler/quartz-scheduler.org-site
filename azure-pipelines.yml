@@ -32,7 +32,7 @@ steps:
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.binariesDirectory):/srv/jekyll/_site
-    containerCommand: 'sh -x -c "bundle install && JEKYLL_ENV=production jekyll build"'
+    containerCommand: 'sh -x -c "ls -l /srv/jekyll && chmod a+w Gemfile.lock && bundle install && JEKYLL_ENV=production jekyll build"'
     detached: false
 - bash: |
     set -e
