@@ -17,3 +17,6 @@ gem 'jekyll-sass-converter', '1.5.2'
 
 # Generates a sitemap during Jekyll build
 gem 'jekyll-sitemap', '1.2.0'
+
+ # Avoid polling for changes:
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
