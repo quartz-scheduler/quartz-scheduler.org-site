@@ -1,0 +1,11 @@
+---
+layout: page
+title: Blogs
+visible_title: "Quartz Blogs"
+permalink: /blog/
+active_menu_id: site_mnu_blog
+---
+
+= Quartz Blog
+
+See http://www.terracotta.org/blog[Terracotta Blog, role="external", window="_blank"]

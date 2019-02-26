@@ -1,0 +1,22 @@
+---
+layout: page
+title: Downloads
+visible_title: "Download Quartz"
+permalink: /downloads/
+active_menu_id: site_mnu_download
+---
+
+= Downloads
+
+== Latest Download
+
+See <</documentation/{quartz-version}/downloads.adoc#,Latest Release Download>>
+
+== Previous Releases
+
+Full Distributions
+
+* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.2.3-distribution.tar.gz[Quartz 2.2.3 .tar.gz]
+* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.1.7-distribution.tar.gz[Quartz 2.1.7 .tar.gz]
+* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.0.2-distribution.tar.gz[Quartz 2.0.2 .tar.gz]
+* http://d2zwv9pap9ylyd.cloudfront.net/quartz-1.8.6-distribution.tar.gz[Quartz 1.8.6 .tar.gz]

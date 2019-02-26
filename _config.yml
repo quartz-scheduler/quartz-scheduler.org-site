@@ -9,9 +9,11 @@ github_username:  quartz-scheduler
 linkedin_username: terracotta
 facebook_username:  Terracotta
 
-qtz_latest_version: 2.2.1
-qtz_latest_javadoc_version: 2.2.1
+asciidoc_attributes: &asciidoc_attributes
+  quartz-version: 2.4.0-SNAPSHOT
 
+asciidoctor:
+  attributes: *asciidoc_attributes
 
 exclude:
   - README.md
@@ -22,10 +24,11 @@ exclude:
   - azure-pipelines.yml
   - get-deps.sh
   - add-analytics.sh
+  - .idea/
 
 exclude_from_watch:
   - .idea/
-  - _eh*/
+  - quartz-worktree/
 
 
 # Build settings
