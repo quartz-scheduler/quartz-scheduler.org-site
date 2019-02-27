@@ -5,6 +5,7 @@ active_sub_menu_id: site_mnu_quartz_doc_index
 ---
 # Quartz 1.8.6 Documentation
 
+* <a href="/api/1.8.6/index.html">JavaDoc</a>
 * <a href="quick-start.html">Quick Start Guide</a>
 * <a href="configuration/">Configuration</a>
 * <a href="cookbook/">Cookbook</a>
