@@ -6,10 +6,11 @@ active_sub_menu_id: site_mnu_docs_home
 ---
 
 = Documentation
+:quartz-version: latest-x.y.z
 
 == Current Documentation
 
-See <<current/index.adoc#,Current Documentation>>
+See <<{quartz-version}/index.adoc#,Current Documentation>>
 
 == Historical Versions
 
