@@ -10,12 +10,12 @@ active_menu_id: site_mnu_download
 :quartz-version: latest-x.y.z
 :quartz-version-23x: latest-2.3.x
 
-== Latest Snapshot Release Downloads
+== Latest Snapshot Releases Downloads
 
 * link:/downloads/files/quartz-{quartz-version}-distribution.tar.gz[quartz-{quartz-version}-distribution.tar.gz]
 * link:/downloads/files/quartz-{quartz-version-23x}-distribution.tar.gz[quartz-{quartz-version-23x}-distribution.tar.gz]
 
-== Latest Stable Release Downloads
+== Latest Stable Releases Downloads
 
 * link:/downloads/files/quartz-2.3.0-distribution.tar.gz[quartz-2.3.0-distribution.tar.gz]
 
