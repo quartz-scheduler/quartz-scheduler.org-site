@@ -16,13 +16,13 @@ active_sub_menu_id: site_mnu_docs_home
 
 == Latest Stable Release Documentation
 
-* Quartz 2.3.0 link:/documentation/quartz-2.3.0/quick-start.html[Documentation], link:/api/2.3.0/index.html[JavaDoc]
+* Quartz 2.3.0 link:/documentation/quartz-2.3.0/[Documentation], link:/api/2.3.0/index.html[JavaDoc]
 
 == Previous Release Documentation
 
-* Quartz 2.2.3 link:/documentation/quartz-2.2.3/quick-start.html[Documentation], link:/api/2.2.3/index.html[JavaDoc]
-* Quartz 2.2.2 link:/documentation/quartz-2.2.2/quick-start.html[Documentation], link:/api/2.2.2/index.html[JavaDoc]
-* Quartz 2.1.7 link:/documentation/quartz-2.1.7/quick-start.html[Documentation], link:/api/2.1.7/index.html[JavaDoc]
-* Quartz 2.0.2 link:/documentation/quartz-2.0.2/quick-start.html[Documentation], link:/api/2.0.2/index.html[JavaDoc]
-* Quartz 1.8.6 link:/documentation/quartz-1.8.6/quick-start.html[Documentation], link:/api/1.8.6/index.html[JavaDoc]
+* Quartz 2.2.3 link:/documentation/quartz-2.2.3/index.html[Documentation], link:/api/2.2.3/index.html[JavaDoc]
+* Quartz 2.2.2 link:/documentation/quartz-2.2.2/index.html[Documentation], link:/api/2.2.2/index.html[JavaDoc]
+* Quartz 2.1.7 link:/documentation/quartz-2.1.7/index.html[Documentation], link:/api/2.1.7/index.html[JavaDoc]
+* Quartz 2.0.2 link:/documentation/quartz-2.0.2/index.html[Documentation], link:/api/2.0.2/index.html[JavaDoc]
+* Quartz 1.8.6 link:/documentation/quartz-1.8.6/index.html[Documentation], link:/api/1.8.6/index.html[JavaDoc]
 
