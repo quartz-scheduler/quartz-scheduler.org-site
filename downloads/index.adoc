@@ -21,7 +21,7 @@ active_menu_id: site_mnu_download
 
 * link:/downloads/files/quartz-2.2.3-distribution.tar.gz[quartz-2.2.3-distribution.tar.gz]
 * link:/downloads/files/quartz-2.2.2-distribution.tar.gz[quartz-2.2.2-distribution.tar.gz]
-* link:/downloads/files/quartz-all-2.1.7.jar[quartz-all-2.1.7.jar]
-* link:/downloads/files/quartz-2.0.2.jar[quartz-2.0.2.jar]
-* link:/downloads/files/quartz-1.8.6.jar[quartz-1.8.6.jar]
+* link:/downloads/files/quartz-2.1.7-distribution.tar.gz[quartz-2.1.7-distribution.tar.gz]
+* link:/downloads/files/quartz-2.0.2-distribution.tar.gz[quartz-2.0.2-distribution.tar.gz]
+* link:/downloads/files/quartz-1.8.6-distribution.tar.gz[quartz-1.8.6-distribution.tar.gz]
 * link:/downloads/files/quartz-1.8.5.jar[quartz-1.8.5.jar]
