@@ -3,7 +3,7 @@ title: quartz-doc-index
 visible_title: "Quartz Documentation"
 active_sub_menu_id: site_mnu_quartz_doc_index
 ---
-# Quartz 1.8.6 Documentation
+# Quartz 2.1.7 Documentation
 
 * <a href="quick-start.html">Quick Start Guide</a>
 * <a href="configuration/">Configuration</a>
