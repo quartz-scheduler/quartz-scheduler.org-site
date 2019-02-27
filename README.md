@@ -43,7 +43,7 @@ See `get-deps.sh` script on build steps reference.
 
 ### For Quartz-2.4.x releases
 
-You need JDK8 to and Maven 3.6.0 to build
+You need JDK8 and Maven 3.6.0 to build
 ```
 mvn package -Ddist -DskipTests
 # Output is in distribution/target
@@ -51,7 +51,7 @@ mvn package -Ddist -DskipTests
 
 ### For Quartz-2.3.x releases
 
-You need JDK7 to and Maven 3.6.0 to build
+You need JDK7 and Maven 3.6.0 to build
 ```
 mvn package -DskipTests -Ddist 
 # Output is in distribution/target
@@ -59,7 +59,7 @@ mvn package -DskipTests -Ddist
 
 ### For Quartz-2.2.x releases
 
-You need JDK6 to and Maven 3.2.5 to build
+You need JDK6 and Maven 3.2.5 to build
 ```
 mvn package -DskipTests -Ddist
 # Output is in distribution/target
@@ -67,7 +67,7 @@ mvn package -DskipTests -Ddist
 
 ### For Quartz-2.1.x releases
 
-You need JDK6 to and Maven 3.2.5 to build
+You need JDK6 and Maven 3.2.5 to build
 ```
 mvn package -DskipTests -Dprepare-distribution
 # Output is in quartz/target
@@ -78,7 +78,17 @@ mvn package -DskipTests -Dprepare-distribution
 
 ### For Quartz-2.0.x releases
 
-You need JDK6 to and Maven 3.2.5 to build
+You need JDK6 and Maven 3.2.5 to build
+```
+mvn package -DskipTests -Dprepare-distribution
+# Output is in quartz/target
+# NOTE: This version and older does not have the .tar.gz dist package, so we only publish
+# the "quartz.jar" file as download.
+```
+
+### For Quartz-1.8.x releases
+
+You need JDK5 (Or you can use JDK6 to build as well) and Maven 3.0.5 to build
 ```
 mvn package -DskipTests -Dprepare-distribution
 # Output is in quartz/target
