@@ -10,7 +10,8 @@ active_sub_menu_id: site_mnu_docs_home
 
 == Current Documentation
 
-See <<{quartz-version}/index.adoc#,Current Documentation>>
+* <<{quartz-version}/index.adoc#,Quartz {quartz-version} Documentation>>
+* <<{quartz-2.3.x-version}/index.adoc#,Quartz {quartz-2.3.x-version} Documentation>>
 
 == Historical Versions
 
