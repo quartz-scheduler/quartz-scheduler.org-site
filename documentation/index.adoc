@@ -7,11 +7,12 @@ active_sub_menu_id: site_mnu_docs_home
 
 = Documentation
 :quartz-version: latest-x.y.z
+:quartz-version-23x: latest-2.3.x
 
 == Latest Snapshot Release Documentation
 
-* <<{quartz-version}/index.adoc#,Quartz {quartz-version} Documentation>>
-* <<{quartz-2.3.x-version}/index.adoc#,Quartz {quartz-2.3.x-version} Documentation>>
+* Quartz {quartz-version} <<{quartz-version}/index.adoc#,Documentation>>, link:/api/{quartz-version}/index.html[JavaDoc]
+* Quartz {quartz-version-23x} <<{quartz-version-23x}/index.adoc#,Documentation>>, link:/api/{quartz-version-23x}/index.html[JavaDoc]
 
 == Latest Stable Release Documentation
 

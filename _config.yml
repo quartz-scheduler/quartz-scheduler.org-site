@@ -10,9 +10,10 @@ linkedin_username: terracotta
 facebook_username:  Terracotta
 
 # The "quartz-version" value is for the latest master branch series
+# These should define the current active branches in development.
 asciidoc_attributes: &asciidoc_attributes
   quartz-version: 2.4.0-SNAPSHOT
-  quartz-2.3.x-version: 2.3.1-SNAPSHOT
+  quartz-version-23x: 2.3.1-SNAPSHOT
 
 asciidoctor:
   attributes: *asciidoc_attributes

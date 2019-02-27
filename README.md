@@ -45,8 +45,15 @@ See `get-deps.sh` script on build steps reference.
 
 You need JDK8 and Maven 3.6.0 to build
 ```
+VER=2.4.0-SNAPSHOT
+pushd quartz
+git checkout master
+cp -rf docs ../documentation/${VER}
 mvn package -Ddist -DskipTests
 # Output is in distribution/target
+cp -r distribution/target/quartz-${VER}-distribution.tar.gz ../downloads/files
+mkdir -p ../api/${VER}
+cp -r distribution/target/quartz-${VER}/javadoc/* ../api/${VER}
 ```
 
 ### For Quartz-2.3.x releases
