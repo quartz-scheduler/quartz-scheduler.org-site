@@ -8,15 +8,20 @@ active_menu_id: site_mnu_download
 
 = Downloads
 
-== Latest Download
+== Latest Snapshot Release Downloads
 
-See <</documentation/{quartz-version}/downloads.adoc#,Latest Release Download>>
+* link:/downloads/files/quartz-{quartz-version}-distribution.tar.gz[quartz-{quartz-version}-distribution.tar.gz]
+* link:/downloads/files/quartz-{quartz-2.3.x-version}-distribution.tar.gz[quartz-{quartz-2.3.x-version}-distribution.tar.gz]
 
-== Previous Releases
+== Latest Stable Release Downloads
 
-Full Distributions
+* link:/downloads/files/quartz-2.3.0-distribution.tar.gz[quartz-2.3.0-distribution.tar.gz]
 
-* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.2.3-distribution.tar.gz[Quartz 2.2.3 .tar.gz]
-* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.1.7-distribution.tar.gz[Quartz 2.1.7 .tar.gz]
-* http://d2zwv9pap9ylyd.cloudfront.net/quartz-2.0.2-distribution.tar.gz[Quartz 2.0.2 .tar.gz]
-* http://d2zwv9pap9ylyd.cloudfront.net/quartz-1.8.6-distribution.tar.gz[Quartz 1.8.6 .tar.gz]
+== Previous Releases Downloads
+
+* link:/downloads/files/quartz-2.2.3-distribution.tar.gz[quartz-2.2.3-distribution.tar.gz]
+* link:/downloads/files/quartz-2.2.2-distribution.tar.gz[quartz-2.2.2-distribution.tar.gz]
+* link:/downloads/files/quartz-2.1.7-distribution.tar.gz[quartz-2.1.7-distribution.tar.gz]
+* link:/downloads/files/quartz-2.0.2-distribution.tar.gz[quartz-2.0.2-distribution.tar.gz]
+* link:/downloads/files/quartz-1.8.6-distribution.tar.gz[quartz-1.8.6-distribution.tar.gz]
+* link:/downloads/files/quartz-1.8.5.jar[quartz-1.8.5.jar]
