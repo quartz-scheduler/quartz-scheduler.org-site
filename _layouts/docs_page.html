@@ -17,8 +17,14 @@ active_menu_id: site_mnu_docs
         <ul class="nav">
           <li id="site_mnu_docs_home" class="submenu"><a href="/documentation/">Documentation Home</a></li>
 
-          <li id="site_mnu_docs_snapshot" class="submenu"><a href="/documentation/{{ asciidoc_attributes.quartz-version }}">Quartz {{ asciidoc_attributes.quartz-version }}</a></li>
-          <li id="site_mnu_docs_snapshot-23x" class="submenu"><a href="/documentation/{{ asciidoc_attributes.quartz-version-23x }}">Quartz {{ asciidoc_attributes.quartz-version-23x }}</a></li>
+          <li id="site_mnu_docs_snapshot" class="submenu"><a href="/documentation/{{ site.asciidoc_attributes.quartz-version }}">Quartz {{ site.asciidoc_attributes.quartz-version }}</a></li>
+          <li id="site_mnu_docs_snapshot-23x" class="submenu"><a href="/documentation/{{ site.asciidoc_attributes.quartz-version-23x }}">Quartz {{ site.asciidoc_attributes.quartz-version-23x }}</a></li>
+
+          {% comment %} NOT YET READY - REMOVE ME WHEN IT'sRELEASED
+          <li id="site_mnu_docs_stable" class="submenu"><a href="/documentation/quartz-{{ site.asciidoc_attributes.quartz-version-stable}}">Quartz {{ site.asciidoc_attributes.quartz-version-stable }}</a></li>
+          {% endcomment %}
+          <li id="site_mnu_docs_23x-stable" class="submenu"><a href="/documentation/quartz-{{ site.asciidoc_attributes.quartz-version-23x-stable}}">Quartz {{ site.asciidoc_attributes.quartz-version-23x-stable }}</a></li>
+
 
           <li id="site_mnu_docs_2.2.2" class="submenu"><a href="/documentation/quartz-2.2.2">Quartz 2.2.2</a></li>
           <li id="site_mnu_docs_2.1.7" class="submenu"><a href="/documentation/quartz-2.1.7">Quartz 2.1.7</a></li>
