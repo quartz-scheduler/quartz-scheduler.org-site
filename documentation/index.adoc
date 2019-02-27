@@ -16,7 +16,7 @@ active_sub_menu_id: site_mnu_docs_home
 == Historical Versions
 
 * Quartz 2.3.0 link:/documentation/quartz-2.3.0/quick-start.html[Documentation], link:/api/2.3.0/index.html[JavaDoc]
-* Quartz 2.2.2 link:/documentation/quartz-2.2.2/quick-start.html[Documentation], link:/api/2.2.2/quartz-2.2.2/javadoc/index.html[JavaDoc]
+* Quartz 2.2.2 link:/documentation/quartz-2.2.2/quick-start.html[Documentation], link:/api/2.2.2/index.html[JavaDoc]
 * Quartz 2.1.7 link:/documentation/quartz-2.1.7/quick-start.html[Documentation], link:/api/2.1.7/index.html[JavaDoc]
 * Quartz 1.8.5 link:/documentation/quartz-1.8.5/quick-start.html[Documentation], link:/api/1.8.5/index.html[JavaDoc]
 
