@@ -74,3 +74,14 @@ mvn package -DskipTests -Dprepare-distribution
 # NOTE: This version and older does not have the .tar.gz dist package, so we only publish
 # the "quartz-all.jar" file as download.
 ```
+
+
+### For Quartz-2.0.x releases
+
+You need JDK6 to and Maven 3.2.5 to build
+```
+mvn package -DskipTests -Dprepare-distribution
+# Output is in quartz/target
+# NOTE: This version and older does not have the .tar.gz dist package, so we only publish
+# the "quartz.jar" file as download.
+```
