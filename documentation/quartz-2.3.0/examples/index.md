@@ -35,7 +35,7 @@ Here we give an overview of each example program:
 </thead>
 
 <tbody>
-<td>Example 1 - <a href="/documentation/quartz-2.2.x/examples/Example1.html" title="Example1">First Quartz Program</a></td>
+<td>Example 1 - <a href="/documentation/quartz-2.3.0/examples/Example1.html" title="Example1">First Quartz Program</a></td>
 <td> Think of this as a "Hello World" for Quartz </td>
 </tr>
 
@@ -47,22 +47,22 @@ Here we give an overview of each example program:
 
 
 <tr>
-<td> Example 3 - <a href="/documentation/quartz-2.2.x/examples/Example3.html" title="Example3">Cron Triggers</a> </td>
+<td> Example 3 - <a href="/documentation/quartz-2.3.0/examples/Example3.html" title="Example3">Cron Triggers</a> </td>
 <td> Shows how Cron Triggers can be used to schedule your job </td>
 </tr>
 
 <tr>
-<td> Example 4 - <a href="/documentation/quartz-2.2.x/examples/Example4.html" title="Example4">Job State and Parameters</a></td>
+<td> Example 4 - <a href="/documentation/quartz-2.3.0/examples/Example4.html" title="Example4">Job State and Parameters</a></td>
 <td> Demonstrates how parameters can be passed into jobs and how jobs maintain state </td>
 </tr>
 
 <tr>
-<td> Example 5 - <a href="/documentation/quartz-2.2.x/examples/Example5.html" title="Example5">Handling Job Misfires</a> </td>
+<td> Example 5 - <a href="/documentation/quartz-2.3.0/examples/Example5.html" title="Example5">Handling Job Misfires</a> </td>
 <td> Sometimes job will not execute when they are supposed to.  See how to handle these Misfires </td>
 </tr>
 
 <tr>
-<td> Example 6 - <a href="/documentation/quartz-2.2.x/examples/Example6.html" title="Example6">Dealing with Job Exceptions</a> </td>
+<td> Example 6 - <a href="/documentation/quartz-2.3.0/examples/Example6.html" title="Example6">Dealing with Job Exceptions</a> </td>
 <td> No job is perfect.  See how you can let the scheduler know how to deal with exceptions that are thrown by your job </td>
 </tr>
 
@@ -106,7 +106,7 @@ Here we give an overview of each example program:
 </tr>
 
 <tr>
-<td> Example 14 - <a href="/documentation/quartz-2.2.x/examples/Example14.html" title="Example14">Trigger Priorities</a> </td>
+<td> Example 14 - <a href="/documentation/quartz-2.3.0/examples/Example14.html" title="Example14">Trigger Priorities</a> </td>
 <td> Demonstrates how Trigger priorities can be used to manage firing order for Triggers with the same fire time </td>
 </tr>
 

@@ -13,7 +13,9 @@ facebook_username:  Terracotta
 # These should define the current active branches in development.
 asciidoc_attributes: &asciidoc_attributes
   quartz-version: 2.4.0-SNAPSHOT
+  quartz-version-stable: 2.4.0
   quartz-version-23x: 2.3.1-SNAPSHOT
+  quartz-version-23x-stable: 2.3.0
 
 asciidoctor:
   attributes: *asciidoc_attributes
@@ -40,8 +42,6 @@ markdown: kramdown
 
 gems:
   - jekyll-asciidoc
-
-
 
 
 defaults:
@@ -76,27 +76,3 @@ defaults:
       type: "pages"
     values:
       layout: "docs_page"
-  -
-    scope:
-      path: "documentation/quartz-2.x"
-      type: "pages"
-    values:
-      layout: "docs2x_page"
-      qtz_version: "2.0.2"
-      qtz_javadoc_version: "2.0.2"
-  -
-    scope:
-      path: "documentation/quartz-2.1.x"
-      type: "pages"
-    values:
-      layout: "docs21x_page"
-      qtz_version: "2.1.7"
-      qtz_javadoc_version: "2.1.7"
-  -
-    scope:
-      path: "documentation/quartz-2.2.x"
-      type: "pages"
-    values:
-      layout: "docs22x_page"
-      qtz_version: "2.2.1"
-      qtz_javadoc_version: "2.2.1"

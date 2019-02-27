@@ -32,20 +32,20 @@ The properties for configuring various aspect of a scheduler are described in th
 
 ## Choose a topic:
 
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigMain.html">Main Configuration</a> (configuration of primary scheduler settings,
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigMain.html">Main Configuration</a> (configuration of primary scheduler settings,
     transactions)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigThreadPool.html">Configuration of ThreadPool</a> (tune resources for job execution)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigListeners.html">Configuration of Listeners</a> (your application can receive notification of
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigThreadPool.html">Configuration of ThreadPool</a> (tune resources for job execution)
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigListeners.html">Configuration of Listeners</a> (your application can receive notification of
     scheduled events)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigPlugins.html">Configuration of Plug-Ins</a> (add functionality to your scheduler)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigRMI.html">Configuration of RMI Server and Client</a> (use a Quartz instance from a remote
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigPlugins.html">Configuration of Plug-Ins</a> (add functionality to your scheduler)
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigRMI.html">Configuration of RMI Server and Client</a> (use a Quartz instance from a remote
     process)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigRAMJobStore.html">Configuration of RAMJobStore</a> (store jobs and triggers in memory)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigJobStoreTX.html">Configuration of JDBC-JobStoreTX</a> (store jobs and triggers in a database
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigRAMJobStore.html">Configuration of RAMJobStore</a> (store jobs and triggers in memory)
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigJobStoreTX.html">Configuration of JDBC-JobStoreTX</a> (store jobs and triggers in a database
     via JDBC)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigJobStoreCMT.html">Configuration of JDBC-JobStoreCMT</a> (JDBC with JTA container-managed
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigJobStoreCMT.html">Configuration of JDBC-JobStoreCMT</a> (JDBC with JTA container-managed
     transactions)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigDataSources.html">Configuration of DataSources</a> (for use by the JDBC-JobStores)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigJDBCJobStoreClustering.html">Configuration of Database Clustering</a> (achieve fail-over and
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigDataSources.html">Configuration of DataSources</a> (for use by the JDBC-JobStores)
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigJDBCJobStoreClustering.html">Configuration of Database Clustering</a> (achieve fail-over and
     load-balancing with JDBC-JobStore)
-1. <a href="/documentation/quartz-2.2.x/configuration/ConfigTerracottaJobStore.html">Configuration of TerracottaJobStore</a> (Clustering without a database!)
+1. <a href="/documentation/quartz-2.2.2/configuration/ConfigTerracottaJobStore.html">Configuration of TerracottaJobStore</a> (Clustering without a database!)

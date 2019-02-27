@@ -5,8 +5,8 @@ active_sub_menu_id: site_mnu_docs_tutorials
 ---
 <div class="secNavPanel">
           <a href="./" title="Go to Tutorial Table of Contents">Table of Contents</a> |
-          <a href="/documentation/quartz-2.1.x/tutorials/tutorial-lesson-09.html" title="Go to Lesson 9">&lsaquo;&nbsp;Lesson 9</a> |
-          <a href="/documentation/quartz-2.1.x/tutorials/tutorial-lesson-11.html" title="Go to Lesson 11">Lesson 11&nbsp;&rsaquo;</a>
+          <a href="/documentation/quartz-2.1.7/tutorials/tutorial-lesson-09.html" title="Go to Lesson 9">&lsaquo;&nbsp;Lesson 9</a> |
+          <a href="/documentation/quartz-2.1.7/tutorials/tutorial-lesson-11.html" title="Go to Lesson 11">Lesson 11&nbsp;&rsaquo;</a>
 </div>
 
 ## Lesson 10: Configuration, Resource Usage and SchedulerFactory
@@ -43,7 +43,7 @@ org.quartz.simpl.SimpleThreadPool. This ThreadPool simply maintains a fixed set 
 never shrinks. But it is otherwise quite robust and is very well tested - as nearly everyone using Quartz uses this
 pool.
 
-***JobStores*** and ***DataSources*** were discussed in <a href="/documentation/quartz-2.1.x/tutorials/tutorial-lesson-09.html"
+***JobStores*** and ***DataSources*** were discussed in <a href="/documentation/quartz-2.1.7/tutorials/tutorial-lesson-09.html"
     title="Tutorial Lesson 9">Lesson 9</a> of this tutorial. Worth noting here, is the fact that all JobStores implement
 the org.quartz.spi.JobStore interface - and that if one of the bundled JobStores does not fit your needs, then you can
 make your own.

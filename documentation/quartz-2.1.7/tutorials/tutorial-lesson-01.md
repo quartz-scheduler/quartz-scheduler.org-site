@@ -5,7 +5,7 @@ active_sub_menu_id: site_mnu_docs_tutorials
 ---
 <div class="secNavPanel">
           <a href="./" title="Go to Tutorial Table of Contents">Table of Contents</a> |
-          <a href="/documentation/quartz-2.1.x/tutorials/tutorial-lesson-02.html" title="Go to Lesson 2">Lesson 2&nbsp;&rsaquo;</a>
+          <a href="/documentation/quartz-2.1.7/tutorials/tutorial-lesson-02.html" title="Go to Lesson 2">Lesson 2&nbsp;&rsaquo;</a>
 </div>
 
 ## Lesson 1: Using Quartz
@@ -46,6 +46,6 @@ Here's a quick snippet of code, that instantiates and starts a scheduler, and sc
 </code></pre>
 
 
-As you can see, working with quartz is rather simple. In <a href="/documentation/quartz-2.1.x/tutorials/tutorial-lesson-02.html"
+As you can see, working with quartz is rather simple. In <a href="/documentation/quartz-2.1.7/tutorials/tutorial-lesson-02.html"
 title="Tutorial Lesson 2">Lesson 2</a> we'll give a quick overview of Jobs and Triggers, and Quartz's API so that
 you can more fully understand this example.
