@@ -1,3 +1,8 @@
+---
+title: quartz-doc-index
+visible_title: "Quartz Documentation"
+active_sub_menu_id: site_mnu_quartz_doc_index
+---
 # Quartz 1.8.6 Documentation
 
 * <a href="quick-start.html">Quick Start Guide</a>
