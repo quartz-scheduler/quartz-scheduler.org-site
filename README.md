@@ -38,3 +38,39 @@ add additional `${quartz-version}` that match to the git branch or tag. For exam
 * To generate the site "jekyll build"  
 
 NOTE: On windows, you would need to run `bundle.bat exec jekyll serve -w` instead.
+
+See `get-deps.sh` script on build steps reference.
+
+### For Quartz-2.4.x releases
+
+You need JDK8 to and Maven 3.6.0 to build
+```
+mvn package -Ddist -DskipTests
+# Output is in distribution/target
+```
+
+### For Quartz-2.3.x releases
+
+You need JDK7 to and Maven 3.6.0 to build
+```
+mvn package -DskipTests -Ddist 
+# Output is in distribution/target
+```
+
+### For Quartz-2.2.x releases
+
+You need JDK6 to and Maven 3.2.5 to build
+```
+mvn package -DskipTests -Ddist
+# Output is in distribution/target
+```
+
+### For Quartz-2.1.x releases
+
+You need JDK6 to and Maven 3.2.5 to build
+```
+mvn package -DskipTests -Dprepare-distribution
+# Output is in quartz/target
+# NOTE: This version and older does not have the .tar.gz dist package, so we only publish
+# the "quartz-all.jar" file as download.
+```
