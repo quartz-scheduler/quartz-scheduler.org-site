@@ -21,7 +21,7 @@ cp -rf docs ../documentation/${VER}
 #cp -r distribution/target/quartz-${VER}/javadoc/* ../api/${VER}
 
 # Copy 2.3.x version of quartz docs to a subdir:
-VER=2.3.1-SNAPSHOT
+VER=2.3.3-SNAPSHOT
 git checkout quartz-2.3.x
 cp -rf docs ../documentation/${VER}
 #mvn package -Pdist -DskipTests
