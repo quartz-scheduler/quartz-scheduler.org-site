@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson10">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson12">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson10">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson12">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 ## Lesson 11: Advanced (Enterprise) Features
@@ -36,7 +36,7 @@ same node that just was just active for non-busy (e.g. one or two triggers) sche
 **Clustering With TerracottaJobStore**
 
 Simply configure the scheduler to use TerracottaJobStore (covered in 
-<a href="/documentation/quartz-1.x/tutorials/TutorialLesson09" title="Tutorial Lesson 9">Lesson 9: JobStores</a>), and your scheduler will be all
+<a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson09" title="Tutorial Lesson 9">Lesson 9: JobStores</a>), and your scheduler will be all
 set for clustering.
 
 You may also want to consider implications of how you setup your Terracotta server, particularly configuration 
@@ -49,7 +49,7 @@ More information about this JobStore and Terracotta can be found at
 
 ### JTA Transactions {#TutorialLesson11-JTATransactions}
 
-As explained in <a href="/documentation/quartz-1.x/tutorials/TutorialLesson09" title="Tutorial Lesson 9">Lesson 9: JobStores</a>, JobStoreCMT
+As explained in <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson09" title="Tutorial Lesson 9">Lesson 9: JobStores</a>, JobStoreCMT
 allows Quartz scheduling operations to be performed within larger JTA transactions.
 
 Jobs can also execute within a JTA transaction (UserTransaction) by setting the

@@ -13,7 +13,7 @@ Quartz's clustering features bring both high availability and scalability to you
 
 
 
-<img src="/images/documentation/1.x/quartz_cluster.png" align="absmiddle" border="0" />
+<img src="quartz_cluster.png" align="absmiddle" border="0" />
 
 
 Clustering currently only works with the JDBC-Jobstore (JobStoreTX or JobStoreCMT), and essentially works by having each node of the cluster share the same database.  

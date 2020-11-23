@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson09">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson11">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson09">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson11">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 ## Lesson 10: Configuration, Resource Usage and SchedulerFactory
@@ -32,7 +32,7 @@ org.quartz.simpl.SimpleThreadPool. This ThreadPool simply maintains a fixed set 
 never shrinks. But it is otherwise quite robust and is very well tested - as nearly everyone using Quartz uses this
 pool.
 
-***JobStores*** and ***DataSources*** were discussed in <a href="/documentation/quartz-1.x/tutorials/TutorialLesson09"
+***JobStores*** and ***DataSources*** were discussed in <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson09"
     title="Tutorial Lesson 9">Lesson 9</a> of this tutorial. Worth noting here, is the fact that all JobStores implement
 the org.quartz.spi.JobStore interface - and that if one of the bundled JobStores does not fit your needs, then you can
 make your own.
