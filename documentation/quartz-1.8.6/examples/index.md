@@ -25,7 +25,7 @@ The source code for the examples are located in package **org.quartz.examples**.
 <th> Description </th>
 </tr>
 </thead>
-
+<tbody>
 <tr>
 <td width="75"> <a href="/documentation/quartz-1.x/examples/Example1" title="Example1">Example 1</a> </td>
 <td> First Quartz Program </td>
