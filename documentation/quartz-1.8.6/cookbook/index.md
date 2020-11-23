@@ -20,7 +20,7 @@ Choose from the following menu of How-Tos:
 * <a href="/documentation/quartz-1.x/cookbook/ListJobs" title="ListJobs">Listing Jobs in the Scheduler</a>
 * <a href="/documentation/quartz-1.x/cookbook/ListTriggers" title="ListTriggers">Listing Triggers in the Scheduler</a>
 * <a href="/documentation/quartz-1.x/cookbook/JobTriggers" title="JobTriggers">Finding Triggers of a Job</a>
-<!--
+<!---
 * Using a Global JobListener
 * Using a Global TriggerListener
 * Using a Job-Specific JobListener
