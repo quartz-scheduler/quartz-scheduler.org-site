@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson12">&lsaquo;&nbsp;Prev</a> </div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson12">&lsaquo;&nbsp;Prev</a> </div>
 # CronTrigger Tutorial
 
 ## Introduction {#CronTriggersTutorial-Introduction}
