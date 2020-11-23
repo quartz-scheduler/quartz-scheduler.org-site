@@ -5,7 +5,7 @@ active_sub_menu_id: site_mnu_docs_tutorials
 ---
 <div class="secNavPanel">
           <a href="./" title="Go to Tutorial Table of Contents">Table of Contents</a> |
-          <a href="/documentation/quartz-2.2.2/tutorials/tutorial-lesson-11.html" title="Go to Lesson 2">&lsaquo;&nbsp;Lesson 11</a>
+          <a href="/documentation/quartz-2.2.3/tutorials/tutorial-lesson-11.html" title="Go to Lesson 2">&lsaquo;&nbsp;Lesson 11</a>
 </div>
 
 ## Lesson 12: Miscellaneous Features of Quartz
