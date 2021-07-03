@@ -21,5 +21,5 @@ JobDetail job1 = newJob(MyJobClass.class)
     .build();
 
 // Add the the job to the scheduler's store
-sched.addJob(job, false);
+sched.addJob(job1, false);
 </code></pre>
