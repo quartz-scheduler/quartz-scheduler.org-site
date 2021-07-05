@@ -1,5 +1,5 @@
 ---
-title: Tutorial 7
+title: Tutorial 8
 visible_title: "Quartz Tutorials"
 active_sub_menu_id: site_mnu_docs_tutorials
 ---
