@@ -25,43 +25,18 @@ Authorship record of code modules and/or documentation is also maintained to giv
 
 ## Submitting Contributions
 
-Have you built a great new feature or documentation improvement? Drop us a note in the forums or file a feature enhancement request in our issue tracker and let us know about it. We gladly, and regularly accept contributions, and there are a few ways you can participate.
+Have you built a great new feature or documentation improvement? Drop us a note in the forums or file a feature enhancement request in our issue tracker and let us know about it. We gladly, and regularly accept contributions, and there are a serveral ways you can participate.
 
-Contributors are given credit for their work, though they must be willing (for licensing purposes) to license and/or assign a copyright of the work.  Once you have submitted your contribution we will contact you about providing us with a license or submitting a signed Contributor Agreement. If we request that you assign your copyright of the work to a Terracotta project, you can find the Contributor Agreement document and directions for submission to Terracotta through the link. This document only needs to be filled out once per contributor - not once for each contribution.
+Contributors are given credit for their work, though they must be willing (for licensing purposes) to license and/or assign a copyright of the work.  
 
+### Contribution Process
 
-### Contributions which do not require full Contributor's License Agreement (CLA)
+We follow a DCO / commit-signoff process for accepting contributions.  
 
-A contribution which is an obvious or "drive-by" fix would not require you to sign a CLA rather you will grant us a license to use your contribution. Changes are obvious fixes if they do not introduce any new functionality or creative thinking.
+Please review this content here, to be aware of the terms you are agreeing to, and to find the instructions for doing so:
 
-The submissions such as the following would not require you to sign a CLA
+[Instructions for CONTRIBUTING to the Quartz Project](https://github.com/quartz-scheduler/contributing/blob/main/CONTRIBUTING.md)
 
-* Bug fixes that have an obvious simple fix and do not change intended feature functionality;
-* Adding logging messages or debugging output;
-* Changes to build files;
-* Additions and changes to test files;
-* Minor doc additions or improvements;
-* Spelling/grammar fixes; Correcting typos;
-* Cleaning up comments in the code; or
-* Changes to white space or formatting;
-
-The following are examples that would still require a signed CLA before your submission would be incorporated into the project:
-
-* Any code that results in a change in functionality;
-* A new feature;
-* Feature Enhancement, or anything that alters product behavior;
-* A translation; or
-* Extensive or creative documentation or comments.
-
-If you’re not sure if your fix is obvious you can ask us by sending an email to: tc-oss@softwareag.com.
-
-#### Agreement and Grant of Copyright<a name="grant"></a>
-
-For those contributions that do not require a CLA: _upon submission of Your Contribution you hereby grant Software AG and to recipients of the software distributed by Software AG a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to install, use, reproduce, prepare derivative works of, publicly display, publicly perform, offer to sell, sell, import, sublicense, transfer, and distribute Your Contribution and any such derivative works._
-
-### Contributions which do require a full Contributor's License Agreement (CLA)
-
-Substantial contributions require a CLA, in this case, a "[Contributor Agreement](https://confluence.terracotta.org/download/attachments/27918462/Terracotta%20Individual%20Contributor%20Agreement%20v4.docx)" document must be filled-out and sent to Terracotta (contributors@terracotta.org) -- indicating that you assign the copyright of the work to the Quartz project. This document only needs to be filled out once per contributor - not once for each contribution.
 
 
 ## Becoming a Quartz Developer
