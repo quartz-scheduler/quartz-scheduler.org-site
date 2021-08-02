@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson03">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson05">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson03">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson05">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 ## Lesson 4: More About Triggers
@@ -7,8 +7,8 @@ Like jobs, triggers are relatively easy to work with, but do contain a variety o
 need to be aware of and understand before you can make full use of Quartz. Also, as noted earlier, there are different
 types of triggers, that you can select to meet different scheduling needs.
 
-You will learn about the two most common types of triggers in <a href="/documentation/quartz-1.x/tutorials/TutorialLesson05"
-    title="Tutorial Lesson 5">Lesson 5: Simple Triggers</a> and <a href="/documentation/quartz-1.x/tutorials/TutorialLesson06"
+You will learn about the two most common types of triggers in <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson05"
+    title="Tutorial Lesson 5">Lesson 5: Simple Triggers</a> and <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson06"
     title="Tutorial Lesson 6">Lesson 6: Cron Triggers</a>.
 
 ### Calendars {#TutorialLesson4-Calendars}

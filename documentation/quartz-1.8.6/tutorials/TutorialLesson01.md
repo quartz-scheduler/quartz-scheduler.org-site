@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson02">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson02">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 ## Lesson 1: Using Quartz
@@ -33,7 +33,7 @@ SchedulerFactory schedFact = new org.quartz.impl.StdSchedulerFactory();
 </pre>
 
 
-As you can see, working with quartz is rather simple. In <a href="/documentation/quartz-1.x/tutorials/TutorialLesson02"
+As you can see, working with quartz is rather simple. In <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson02"
     title="Tutorial Lesson 2">Lesson 2</a> we'll give a quick overview of Jobs and Triggers, so that you can more fully
 understand this example.
 

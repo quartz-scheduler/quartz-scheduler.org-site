@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson01">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson03">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson01">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson03">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 ## Lesson 2: Jobs and Triggers
@@ -59,8 +59,8 @@ job or trigger is its name + group. If you leave the group of the Job or Trigger
 having specified *Scheduler.DEFAULT_GROUP*.
 
 You now have a general idea about what Jobs and Triggers are, you can learn more about them in <a
-    href="/documentation/quartz-1.x/tutorials/TutorialLesson03" title="Tutorial Lesson 3">Lesson 3: More About Jobs &amp; JobDetails</a> and <a
-    href="/documentation/quartz-1.x/tutorials/TutorialLesson04" title="Tutorial Lesson 4">Lesson 4: More About Triggers</a>.
+    href="/documentation/quartz-1.8.6/tutorials/TutorialLesson03" title="Tutorial Lesson 3">Lesson 3: More About Jobs &amp; JobDetails</a> and <a
+    href="/documentation/quartz-1.8.6/tutorials/TutorialLesson04" title="Tutorial Lesson 4">Lesson 4: More About Triggers</a>.
 
 
 

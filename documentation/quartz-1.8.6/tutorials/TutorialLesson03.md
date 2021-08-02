@@ -1,4 +1,4 @@
-<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson02">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.x/tutorials/TutorialLesson04">Next&nbsp;&rsaquo;</a></div>
+<div class="secNavPanel"><a href="./">Contents</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson02">&lsaquo;&nbsp;Prev</a> | <a href="/documentation/quartz-1.8.6/tutorials/TutorialLesson04">Next&nbsp;&rsaquo;</a></div>
 # Quartz Enterprise Job Scheduler 1.x Tutorial
 
 
