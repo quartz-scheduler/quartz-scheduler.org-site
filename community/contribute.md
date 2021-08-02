@@ -35,7 +35,7 @@ We follow a DCO / commit-signoff process for accepting contributions.
 
 Please review this content here, to be aware of the terms you are agreeing to, and to find the instructions for doing so:
 
-[Instructions for CONTRIBUTING to the Quartz Project](https://github.com/quartz-scheduler/contributing/blob/main/CONTRIBUTING.md)
+&nbsp;&rsaquo;&nbsp;&rsaquo; [Instructions for CONTRIBUTING to the Quartz Project](https://github.com/quartz-scheduler/contributing/blob/main/CONTRIBUTING.md)
 
 
 
