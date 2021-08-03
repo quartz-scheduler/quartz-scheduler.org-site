@@ -5,8 +5,8 @@ active_sub_menu_id: site_mnu_docs_tutorials
 ---
 <div class="secNavPanel">
           <a href="./" title="Go to Tutorial Table of Contents">Table of Contents</a> |
-          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-03.html" title="Go to Lesson 3">&lsaquo;&nbsp;Lesson 3</a> |
-          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-05.html" title="Go to Lesson 5">Lesson 5&nbsp;&rsaquo;</a>
+          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-03.md" title="Go to Lesson 3">&lsaquo;&nbsp;Lesson 3</a> |
+          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-05.md" title="Go to Lesson 5">Lesson 5&nbsp;&rsaquo;</a>
 </div>
 
 ## Lesson 4: More About Triggers
