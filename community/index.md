@@ -20,9 +20,8 @@ Quartz has been around for more than 15 years. As such, there is a large communi
 
 ### Report Issues, Request Features, Get Code
 
-* [Quartz issue tracker&nbsp;&rsaquo;](http://jira.terracotta.org/jira/browse/QTZ "Quartz Issue Tracker")
-* [Quartz SVN code repository&nbsp;&rsaquo;](http://www.quartz-scheduler.org/community/source-code.html "Quartz SVN Code Repository")
-* [Quartz online Fisheye code repository browser&nbsp;&rsaquo;](http://svn.terracotta.org/fisheye/browse/Quartz "Quartz Fisheye Code Repository Browser")
+* [Quartz issue tracker&nbsp;&rsaquo;](https://github.com/quartz-scheduler/quartz/issues "Quartz Issue Tracker")
+* [Quartz source code repository&nbsp;&rsaquo;](https://github.com/quartz-scheduler/quartz "Quartz Source Code Repository")
 
 ### Participate in the Development of Quartz
 
