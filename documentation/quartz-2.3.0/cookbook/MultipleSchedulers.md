@@ -27,9 +27,9 @@ Never start (scheduler.start()) a non-clustered instance against the same set of
 
 ### Example/Discussion Relating To Scheduling Jobs From One Application To Be Executed In Another Application
 
-*This description/usage applies to JDBC-JobStore.  You may also want to look at RMI or JMX features to control a Scheduler in a remote process - which works for any JobStore. You may also be interested in the Terracotta Quartz Where features.*
+*This description/usage applies to JDBC-JobStore.  You may also want to look at RMI or JMX features to control a Scheduler in a remote process - which works for any JobStore.*
 
-Currently, If you want to have particular jobs run in a particular scheduler, then it needs to be a distinct scheduler - unless you use the Terracotta Quartz Where features.
+Currently, If you want to have particular jobs run in a particular scheduler, then it needs to be a distinct scheduler.
 
 Suppose you have an application "App A" that needs to schedule jobs (based on user input) that need to run either on the local process/machine "Machine A" (for simple jobs) or on a remote machine "Machine B" (for complex jobs).
 
