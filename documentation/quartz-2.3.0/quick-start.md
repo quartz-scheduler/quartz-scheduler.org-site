@@ -14,8 +14,6 @@ Welcome to the QuickStart guide for Quartz. As you read this guide, expect to se
 * Configuring Quartz to your own particular needs
 * Starting a sample application
 
-After becoming familiar with the basic functioning of Quartz Scheduler, consider more advanced features such  as [Where](http://terracotta.org/documentation/quartz-scheduler/quartz-scheduler-where), an Enterprise feature that allows jobs and triggers to run on specified Terracotta clients instead  of randomly chosen      
-ones.
 
 ## Download and Install
 
