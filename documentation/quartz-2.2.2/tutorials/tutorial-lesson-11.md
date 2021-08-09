@@ -48,11 +48,6 @@ You may also want to consider implications of how you setup your Terracotta serv
 options that turn on features such as persistence, and running an array of Terracotta
 servers for HA.
 
-The Enterprise Edition of TerracottaJobStore provides advanced Quartz Where features, that allow for intelligent targeting of jobs to appropriate cluster nodes.
-
-More information about this JobStore and Terracotta can be found at
-<a href="http://www.terracotta.org/quartz">http://www.terracotta.org/quartz</a>
-
 
 ### JTA Transactions {#TutorialLesson11-JTATransactions}
 
