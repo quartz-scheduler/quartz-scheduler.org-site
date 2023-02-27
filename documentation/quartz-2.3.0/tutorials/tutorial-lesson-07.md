@@ -65,7 +65,7 @@ To create a listener, simply create an object that implements the org.quartz.Tri
 org.quartz.JobListener interface. Listeners are then registered with the scheduler during run time, and must be given a
 name (or rather, they must advertise their own name via their getName() method).
 
-For your convenience, tather than implementing those interfaces, your class could also extend the class
+For your convenience, rather than implementing those interfaces, your class could also extend the class
 JobListenerSupport or TriggerListenerSupport and simply override the events you're interested in.
 
 Listeners are registered with the scheduler's ListenerManager along with a Matcher that describes which Jobs/Triggers
