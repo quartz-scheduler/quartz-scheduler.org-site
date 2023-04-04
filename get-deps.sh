@@ -13,7 +13,7 @@ pushd __reference
 
 # Copy latest version of quartz docs to a subdir:
 VER=2.4.0-SNAPSHOT
-git checkout master
+#git checkout master
 cp -rf docs ../documentation/${VER}
 #mvn package -Pdist -DskipTests
 #cp -r distribution/target/quartz-${VER}-distribution.tar.gz ../downloads/files
