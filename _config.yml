@@ -13,14 +13,14 @@ facebook_username:  Terracotta
 # These should define the current active branches in development.
 asciidoc_attributes: &asciidoc_attributes
 
-  quartz-version: 2.4.0-SNAPSHOT
-  quartz-version-stable: 2.4.0
-  quartz-version-23x: 2.3.1-SNAPSHOT
-  quartz-version-23x-stable: 2.3.0
-#  quartz-version: 2.5.0-SNAPSHOT
-#  quartz-version-stable: 2.3.2
-#  quartz-version-23x: 2.3.3-SNAPSHOT
-#  quartz-version-23x-stable: 2.3.2
+#  quartz-version: 2.4.0-SNAPSHOT
+#  quartz-version-stable: 2.4.0
+#  quartz-version-23x: 2.3.1-SNAPSHOT
+#  quartz-version-23x-stable: 2.3.0
+  quartz-version: 2.5.0-SNAPSHOT
+  quartz-version-stable: 2.5.0
+  quartz-version-23x: 2.3.3-SNAPSHOT
+  quartz-version-23x-stable: 2.3.2
 
 asciidoctor:
   attributes: *asciidoc_attributes
