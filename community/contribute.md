@@ -6,6 +6,10 @@ active_sub_menu_id: site_mnu_community_contribute
 
 # Contribute
 
+Contributions cannot be accepted at this time as we are currently transitioning to IBM processes and policies.
+
+Please check back for updates.
+
 
 ## Welcome aboard!
 
