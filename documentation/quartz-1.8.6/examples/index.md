@@ -27,7 +27,7 @@ The source code for the examples are located in package **org.quartz.examples**.
 </thead>
 
 <tr>
-<td width="75"> <a href="/documentation/quartz-1.x/examples/Example1" title="Example1">Example 1</a> </td>
+<td width="75"> <a href="/documentation/quartz-1.8.6/examples/Example1" title="Example1">Example 1</a> </td>
 <td> First Quartz Program </td>
 
 <td> Think of this as a "Hello World" for Quartz </td>
@@ -38,24 +38,24 @@ The source code for the examples are located in package **org.quartz.examples**.
 <td> Shows a dozen different ways of using Simple Triggers to schedule your jobs </td>
 </tr>
 <tr>
-<td> <a href="/documentation/quartz-1.x/examples/Example3" title="Example3">Example 3</a> </td>
+<td> <a href="/documentation/quartz-1.8.6/examples/Example3" title="Example3">Example 3</a> </td>
 
 <td> Cron Triggers </td>
 <td> Shows how Cron Triggers can be used to schedule your job </td>
 </tr>
 <tr>
-<td> <a href="/documentation/quartz-1.x/examples/Example4" title="Example4">Example 4</a> </td>
+<td> <a href="/documentation/quartz-1.8.6/examples/Example4" title="Example4">Example 4</a> </td>
 <td> Job State and Parameters </td>
 <td> Demonstrates how parameters can be passed into jobs and how jobs maintain state </td>
 
 </tr>
 <tr>
-<td> <a href="/documentation/quartz-1.x/examples/Example5" title="Example5">Example 5</a> </td>
+<td> <a href="/documentation/quartz-1.8.6/examples/Example5" title="Example5">Example 5</a> </td>
 <td> Handling Job Misfires </td>
 <td> Sometimes job will not execute when they are supposed to.  See how to handle these Misfires </td>
 </tr>
 <tr>
-<td> <a href="/documentation/quartz-1.x/examples/Example6" title="Example6">Example 6</a> </td>
+<td> <a href="/documentation/quartz-1.8.6/examples/Example6" title="Example6">Example 6</a> </td>
 
 <td> Dealing with Job Exceptions </td>
 <td> No job is perfect.  See how you can let the scheduler know how to deal with exceptions that are thrown by your job </td>
@@ -100,7 +100,7 @@ The source code for the examples are located in package **org.quartz.examples**.
 <td> Demonstrates how Quartz can be used in a clustered environment and how Quartz can use the database to persist scheduling information </td>
 </tr>
 <tr>
-<td> <a href="/documentation/quartz-1.x/examples/Example14" title="Example14">Example 14</a> </td>
+<td> <a href="/documentation/quartz-1.8.6/examples/Example14" title="Example14">Example 14</a> </td>
 
 <td> Trigger Priorities </td>
 <td> Demonstrates how Trigger priorities can be used to manage firing order for Triggers with the same fire time </td>
