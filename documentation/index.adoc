@@ -16,7 +16,6 @@ active_sub_menu_id: site_mnu_docs_home
 
 == Previous Release Documentation
 
-* Quartz 2.2.3 link:/documentation/quartz-2.2.3/index.html[Documentation], link:/api/2.2.3/index.html[JavaDoc]
 * Quartz 2.2.2 link:/documentation/quartz-2.2.2/index.html[Documentation], link:/api/2.2.2/index.html[JavaDoc]
 * Quartz 2.1.7 link:/documentation/quartz-2.1.7/index.html[Documentation], link:/api/2.1.7/index.html[JavaDoc]
 * Quartz 2.0.2 link:/documentation/quartz-2.0.2/index.html[Documentation], link:/api/2.0.2/index.html[JavaDoc]
