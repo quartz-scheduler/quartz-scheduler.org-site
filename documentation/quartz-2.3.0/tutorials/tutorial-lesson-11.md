@@ -16,7 +16,7 @@ active_sub_menu_id: site_mnu_docs_tutorials
 Clustering currently works with the JDBC-Jobstore (JobStoreTX or JobStoreCMT) and the TerracottaJobStore.
 Features include load-balancing and job fail-over (if the JobDetail's "request recovery" flag is set to true).
 
-####Clustering With JobStoreTX or JobStoreCMT
+#### Clustering With JobStoreTX or JobStoreCMT
 Enable clustering by setting the "org.quartz.jobStore.isClustered" property to "true". Each instance in the
 cluster should use the same copy of the quartz.properties file. Exceptions of this would be to use properties files that
 are identical, with the following allowable exceptions: Different thread pool size, and different value for the
@@ -39,7 +39,7 @@ node will run the job, etc.    It won't necessarily be the same node each time -
 node runs it.  The load balancing mechanism is near-random for busy schedulers (lots of triggers) but favors the
 same node that just was just active for non-busy (e.g. one or two triggers) schedulers.
 
-####Clustering With TerracottaJobStore
+#### Clustering With TerracottaJobStore
 Simply configure the scheduler to use TerracottaJobStore (covered in
 <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-09.html" title="Tutorial Lesson 9">Lesson 9: JobStores</a>), and your scheduler will be all
 set for clustering.
