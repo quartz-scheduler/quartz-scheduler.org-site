@@ -81,7 +81,7 @@ follows:
         </tr>
     </tbody>
 </table>
-So cron expressions can be as simple as this: <tt>&#42; * * * ? *</tt>
+So cron expressions can be as simple as this: <tt>&#42; * * * * *</tt>
 
 or more complex, like this: <tt>0/5 14,18,3-39,52 * ? JAN,MAR,SEP MON-FRI 2002-2010</tt>
 
