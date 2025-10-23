@@ -10,17 +10,28 @@ active_menu_id: site_mnu_download
 :quartz-version: latest-x.y.z
 :quartz-version-23x: latest-2.3.x
 
-== Latest Snapshot Releases Downloads
 
-* link:/downloads/files/quartz-{quartz-version}-distribution.tar.gz[quartz-{quartz-version}-distribution.tar.gz]
-* link:/downloads/files/quartz-{quartz-version-23x}-distribution.tar.gz[quartz-{quartz-version-23x}-distribution.tar.gz]
+== Latest Release Downloads can be found on GitHub
 
-== Latest Stable Releases Downloads
+The key difference between Quartz 2.4.x and Quartz 2.5.x is that Quartz 2.5.x moved to the Jakarta
+namespace and requires Java 11+ (Quartz 2.4.x only requires Java 8+).
 
-* link:/downloads/files/quartz-2.3.0-distribution.tar.gz[quartz-2.3.0-distribution.tar.gz]
+* link:https://github.com/quartz-scheduler/quartz/releases[Releases in Quartz Repository on GitHub]
+** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.5.0[Quartz 2.5.0 Release on GitHub]
+** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.4.0[Quartz 2.4.0 Release on GitHub]
+
+== Maven Central Links (for dependency snippets)
+
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.4.0[2.4.0 quartz jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.4.0[2.4.0 quartz-jobs jar]
+
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.5.0[2.5.0 quartz jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.5.0[2.5.0 quartz-jobs jar]
+
 
 == Previous Releases Downloads
 
+* link:/downloads/files/quartz-2.3.0-distribution.tar.gz[quartz-2.3.0-distribution.tar.gz]
 * link:/downloads/files/quartz-2.2.3-distribution.tar.gz[quartz-2.2.3-distribution.tar.gz]
 * link:/downloads/files/quartz-2.2.2-distribution.tar.gz[quartz-2.2.2-distribution.tar.gz]
 * link:/downloads/files/quartz-2.1.7-distribution.tar.gz[quartz-2.1.7-distribution.tar.gz]
