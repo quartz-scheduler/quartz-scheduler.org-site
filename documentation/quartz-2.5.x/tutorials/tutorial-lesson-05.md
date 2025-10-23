@@ -5,8 +5,8 @@ active_sub_menu_id: site_mnu_docs_tutorials
 ---
 <div class="secNavPanel">
           <a href="./" title="Go to Tutorial Table of Contents">Table of Contents</a> |
-          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-04.html" title="Go to Lesson 4">&lsaquo;&nbsp;Lesson 4</a> |
-          <a href="/documentation/quartz-2.3.0/tutorials/tutorial-lesson-06.html" title="Go to Lesson 6">Lesson 6&nbsp;&rsaquo;</a>
+          <a href="/documentation/quartz-2.5.x/tutorials/tutorial-lesson-04.html" title="Go to Lesson 4">&lsaquo;&nbsp;Lesson 4</a> |
+          <a href="/documentation/quartz-2.5.x/tutorials/tutorial-lesson-06.html" title="Go to Lesson 6">Lesson 6&nbsp;&rsaquo;</a>
 </div>
 
 ## Lesson 5: SimpleTrigger
@@ -67,7 +67,7 @@ at least one new/different point:
     .withSchedule(simpleSchedule()
         .withIntervalInSeconds(10)
         .withRepeatCount(10)) // note that 10 repeats will give a total of 11 firings
-    .forJob(myJob) // identify job with handle to its JobDetail itself                   
+    .forJob(myJob) // identify job with handle to its JobDetail itself
     .build();
 </code></pre>
 
@@ -106,7 +106,7 @@ at least one new/different point:
         .withIntervalInHours(2)
         .repeatForever())
     // note that in this example, 'forJob(..)' is not called
-    //  - which is valid if the trigger is passed to the scheduler along with the job  
+    //  - which is valid if the trigger is passed to the scheduler along with the job
     .build();
 
     scheduler.scheduleJob(trigger, job);
