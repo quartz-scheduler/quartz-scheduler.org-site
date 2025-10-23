@@ -48,7 +48,7 @@ This is the big bit! Quartz is a very configurable application. The best way to 
 
 There are several example properties files that ship within the Quartz distribution, particularly under the examples/ directory. I would suggest you create your own quartz.properties file, rather than making a copy of one of the examples and deleting the bits you don't need. It's neater that way, and you'll explore more of what Quartz has to offer.
 
-Full documentation of available properties is available in the [Quartz Configuration Reference](/documentation/quartz-2.3.0/configuration).
+Full documentation of available properties is available in the [Quartz Configuration Reference](/documentation/quartz-2.5.x/configuration).
 
 To get up and running quickly, a basic quartz.properties looks something like this:
 
