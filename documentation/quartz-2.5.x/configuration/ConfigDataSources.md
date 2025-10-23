@@ -229,6 +229,7 @@ org.quartz.dataSource.myDS.maxConnections = 30
 <td>0</td>
 </tr>
 
+</tbody></table>
 
 **org.quartz.dataSource.NAME.provider**
 
