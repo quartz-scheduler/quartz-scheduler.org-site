@@ -85,6 +85,13 @@ JobStoreTX can be tuned with the following properties:
 </tr>
 
 <tr>
+<td>org.quartz.jobStore.useEnhancedStatements</td>
+<td>no</td>
+<td>boolean</td>
+<td>false</td>
+</tr>
+
+<tr>
 <td>org.quartz.jobStore.clusterCheckinInterval</td>
 <td>no</td>
 <td>long</td>
@@ -183,6 +190,33 @@ The the number of milliseconds the scheduler will 'tolerate' a trigger to pass i
 **org.quartz.jobStore.isClustered**
 
 Set to "true" in order to turn on clustering features. This property must be set to "true" if you are having multiple instances of Quartz use the same set of database tables... otherwise you will experience havoc.  See the configuration docs for clustering for more information.
+
+<a id="enhanced_statements_property"/>
+
+**org.quartz.jobStore.useEnhancedStatements**
+
+Set to "true" in order to use the enhanced SQL statements that are available in the database.  This is a performance optimization, and is not required for Quartz to work.
+This property enables the use of bulk loader SQL statements for certain operations, such as for loading job details and trigger details.
+These enhanced SQL statements can greatly improve performance when there are large numbers of jobs and triggers defined in the job store. This setting is most useful for
+when you need to query the job store frequently to find triggers and jobs, such as for a job runner dashboard. +
+These statements are used for the following operations:
+
+* `JobStore#getTriggersByJobGroup`
+* `JobStore#getTriggersByTriggerGroup`
+* `JobStore#getTriggersByJobAndTriggerGroup`
+* (_enabled-only if setting is_ `true`)`JobStore#storeCalendar` via `StdJDBCDelegate#selectTriggersForCalendar`
+* (_enabled-only if setting is_ `true`) `StdJDBCDelegate#selectTriggersForJob`
+    * This is then used in turn by:
+        * `JobStore#getTriggersOfJob`
+        * `JobStore#pauseJob`
+        * `JobStore#pauseJobs`
+        * `JobStore#resumeJob`
+        * `JobStore#resumeJobs`
+        * `JobStore#removeJob`
+
+Not all these methods are fully optimized for batching inserting/updating yet.
+
+The default value is `false`.
 
 **org.quartz.jobStore.clusterCheckinInterval**
 
