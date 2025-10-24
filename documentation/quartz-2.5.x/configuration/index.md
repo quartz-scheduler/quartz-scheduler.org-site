@@ -48,4 +48,3 @@ The properties for configuring various aspect of a scheduler are described in th
 1. <a href="/documentation/quartz-2.5.x/configuration/ConfigDataSources.html">Configuration of DataSources</a> (for use by the JDBC-JobStores)
 1. <a href="/documentation/quartz-2.5.x/configuration/ConfigJDBCJobStoreClustering.html">Configuration of Database Clustering</a> (achieve fail-over and
     load-balancing with JDBC-JobStore)
-1. <a href="/documentation/quartz-2.5.x/configuration/ConfigTerracottaJobStore.html">Configuration of TerracottaJobStore</a> (Clustering without a database!)

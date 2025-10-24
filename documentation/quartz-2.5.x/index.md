@@ -8,10 +8,10 @@ active_sub_menu_id: site_mnu_quartz_doc_index
 * <a href="/api/2.5.x/index.html">JavaDoc</a>
 
 * <a href="introduction.html">Introduction to Quartz</a>
-* 
+
 * <a href="quick-start.html">Quick Start Guide</a>
 * <a href="configuration/">Configuration</a>
-* 
+ 
 * <a href="cookbook/">Cookbook</a>
 * <a href="tutorials/">Tutorials</a>
 * <a href="examples/">Examples</a>
