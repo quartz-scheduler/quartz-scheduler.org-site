@@ -13,8 +13,6 @@ active_menu_id: site_mnu_download
 
 == Latest Release Downloads can be found on GitHub
 
-Quartz 2.4.x retains support for .
-
 * link:https://github.com/quartz-scheduler/quartz/releases[Releases in Quartz Repository on GitHub]
 ** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.5.1[Quartz 2.5.1 Release on GitHub] Java 11+ and jakarta namespace.
 ** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.4.1[Quartz 2.4.1 Release on GitHub] Java 8 and javax.* namespace.
