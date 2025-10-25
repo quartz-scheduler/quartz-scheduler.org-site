@@ -13,24 +13,19 @@ active_menu_id: site_mnu_download
 
 == Latest Release Downloads can be found on GitHub
 
-[options="header"]
-|=============================================
-|                | Quartz 2.4.x | Quartz 2.5.x
-|Min Java Version| Java 8       | Java 11+
-|Namespace       | javax        | jakarta
-|=============================================
+Quartz 2.4.x retains support for .
 
 * link:https://github.com/quartz-scheduler/quartz/releases[Releases in Quartz Repository on GitHub]
-** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.5.0[Quartz 2.5.0 Release on GitHub]
-** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.4.0[Quartz 2.4.0 Release on GitHub]
+** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.5.1[Quartz 2.5.1 Release on GitHub] Java 11+ and jakarta namespace.
+** link:https://github.com/quartz-scheduler/quartz/releases/tag/v2.4.1[Quartz 2.4.1 Release on GitHub] Java 8 and javax.* namespace.
 
 == Maven Central Links (for dependency snippets)
 
-* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.4.0[2.4.0 quartz jar]
-* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.4.0[2.4.0 quartz-jobs jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.4.1[2.4.1 quartz jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.4.1[2.4.1 quartz-jobs jar]
 
-* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.5.0[2.5.0 quartz jar]
-* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.5.0[2.5.0 quartz-jobs jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz/2.5.1[2.5.1 quartz jar]
+* link:https://central.sonatype.com/artifact/org.quartz-scheduler/quartz-jobs/2.5.1[2.5.1 quartz-jobs jar]
 
 
 == Previous Releases Downloads
