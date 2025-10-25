@@ -12,26 +12,8 @@ active_sub_menu_id: site_mnu_docs_home
 
 == Latest Stable Release Documentation
 
-<table>
-    <tr>
-        <th> </th>
-        <th>Quartz 2.4.x</th>
-        <th>Quartz 2.5.x</th>
-    </tr>
-    <tr>
-        <td>Min Java Version<td>
-        <td>Java 8</td>
-        <td>Java 11+</td>
-    </tr>
-    <tr>
-        <td>Namespace</td>
-        <td>javax</td>
-        <td>jakarta</td>
-    </tr>
-</table>
-
-* Quartz 2.4.x link:/documentation/quartz-2.4.x/[Documentation], link:/api/2.4.x/index.html[JavaDoc]
-* Quartz 2.5.x link:/documentation/quartz-2.5.x/[Documentation], link:/api/2.5.x/index.html[JavaDoc]
+* Quartz 2.4.x link:/documentation/quartz-2.4.x/[Documentation], link:/api/2.4.x/index.html[JavaDoc] (Java 8, javax.*)
+* Quartz 2.5.x link:/documentation/quartz-2.5.x/[Documentation], link:/api/2.5.x/index.html[JavaDoc] (Java 11+, jakarta.*)
 
 
 == Previous Release Documentation
